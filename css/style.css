@@ -29,6 +29,18 @@ body {
     padding-right:15px;
 }
 
+/*
+.nav_wrapper li:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+*/
+
 .main_menu {
     margin-top: 18px;
     color: #929292;
@@ -76,6 +88,8 @@ body {
 
 .section {
     padding-top: 75px;
+    padding-bottom: 75px !important;
+    border-bottom:2px solid #ccc;
 }
 
 .section h2 {
@@ -101,6 +115,10 @@ body {
     max-width: 70%;
 }
 
+.inner_content__container_wrapper {
+    max-width: 78%;
+}
+
 .timeline_left {
     float: left;
     text-align: right;
@@ -114,6 +132,95 @@ body {
 }
 
 .covered {
-    clear: both;
-    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 850px;
+}
+
+.covered h5 {
+    color: #ff52ef;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.no_padding {
+    padding-bottom: 0px !important;
+}
+
+.section_wrapper {
+    display: inline-block !important;
+}
+
+button, input {
+    outline: none !important;
+}
+
+button {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #26249f;
+    text-transform: uppercase;
+    padding:10px 45px 10px 45px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.empowerment, .logos {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding-left:0px;
+}
+
+.empowerment li, .logos li {
+    list-style-type: none;
+    display: inline-block;
+    max-width: 240px !important;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.secure_more {
+    background-image: url('/img/four_points.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 463px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:90px;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.non_profits {
+    background-image: url('/img/four_points.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 463px !important;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:90px;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display:inline-block;
+}
+
+.light {
+    color: #fff !important;
+}
+
+
+.pink button:hover {
+    background-color: #ff16a8 !important;
 }
