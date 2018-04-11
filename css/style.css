@@ -1,12 +1,42 @@
 @media (min-width: 1200px) {
     .container {
-        max-width: 1300px;
+        max-width: 1200px;
     }
+}
+
+@font-face {
+    font-family: GraphieBold;
+    src: url(fonts/Graphie-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: GraphieLight;
+    src: url(fonts/Graphie-Light.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: GraphieSemiBold;
+    src: url(fonts/Graphie-SemiBold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     font-size: 20px;
     color: #333;
+    font-family: GraphieLight !important;
+}
+
+h1, h2 {
+    font-family: GraphieBold !important;
+}
+
+h3, h4, h5 {
+    font-family: GraphieSemiBold !important;
 }
 
 .nav_wrapper {
@@ -51,6 +81,23 @@ body {
     color: #929292;
 }
 
+.login_button {
+    border: 1px solid blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100px !important;
+    font-weight: bold;
+    color: #333;
+}
+
+.main_aux_nav {
+    float: right;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
 .logo {
     padding-left:30px;
 }
@@ -59,7 +106,7 @@ body {
     background-image: url('/img/hero_bg.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 557px;
     text-align: center;
     margin: 0 auto;
     padding-top:90px;
@@ -88,7 +135,7 @@ body {
 
 .section {
     padding-top: 75px;
-    padding-bottom: 75px !important;
+    padding-bottom: 50px !important;
     border-bottom:2px solid #ccc;
 }
 
@@ -102,6 +149,11 @@ body {
     padding: 15px;
 }
 
+.section .bottom_p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 .section img {
     padding: 15px;
 }
@@ -112,11 +164,11 @@ body {
 }
 
 .inner_content_wrapper {
-    max-width: 70%;
+    max-width: 75%;
 }
 
 .inner_content__container_wrapper {
-    max-width: 78%;
+    max-width: 85%;
 }
 
 .timeline_left {
@@ -139,7 +191,7 @@ body {
 }
 
 .covered h5 {
-    color: #ff52ef;
+    color: #ff05a1;
     font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;
@@ -159,12 +211,15 @@ button, input {
 
 button {
     font-size: 16px;
-    font-weight: normal;
     margin-top: 15px;
     color: #fff;
     background-color: #26249f;
     text-transform: uppercase;
     padding:10px 45px 10px 45px;
+    border: 0px !important;
+    font-weight: bold;
+    font-family: GraphieBold !important;
+    letter-spacing: 1px;
 }
 
 button:hover {
@@ -182,9 +237,20 @@ button:hover {
     list-style-type: none;
     display: inline-block;
     max-width: 240px !important;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     vertical-align: top;
+}
+
+.empowerment li, .empowerment li img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.cyber_insurance .logos li, .cyber_insurance .logos li img {
+    padding-bottom: 0px;
+    padding-top: 15px;
 }
 
 .secure_more {
@@ -222,5 +288,92 @@ button:hover {
 
 
 .pink button:hover {
-    background-color: #ff16a8 !important;
+    background-color: #ff05a1 !important;
+}
+
+.pink_color:hover {
+    color: #ff05a1 !important;
+}
+
+.green button:hover {
+    background-color: #87bd30 !important;
+}
+
+.green_color:hover {
+    color: #87bd30 !important;
+}
+
+.orange button:hover {
+    background-color: #ff7800 !important;
+}
+
+.orange_color:hover {
+    color: #ff7800 !important;
+}
+
+.blue button:hover {
+    background-color: #35c5f3 !important;
+}
+
+.blue_color:hover {
+    color: #35c5f3 !important;
+}
+
+.footer {
+    font-size:14px;
+}
+
+.footer p {
+    padding-left: 0px;
+    color: #929292;
+}
+
+.footer ul {
+    padding-left: 0px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    padding-left: 0px;
+    text-transform: uppercase;
+    font-size:16px;
+    line-height: 25px;
+    padding-bottom:10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #929292;
+}
+
+.footer ul li a:hover {
+    text-decoration: none !important;
+}
+
+.container.footer {
+    padding-top: 30px;
+    padding-bottom: 0px !important;
+}
+
+.container.footer.contact ul li {
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+.container.footer.contact ul li img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.bottom_piece {
+    border-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+    .col-md-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 2 0 16.666667%;
+        max-width: 22.666667%;
+    }
 }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/hero_bg.jpg" afterPath="$PROJECT_DIR$/img/hero_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="$PROJECT_DIR$/img/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/boiler.jpg" afterPath="$PROJECT_DIR$/img/boiler.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/munich.jpg" afterPath="$PROJECT_DIR$/img/munich.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/wand.jpg" afterPath="$PROJECT_DIR$/img/wand.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -19,21 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="76" column="164" lean-forward="false" selection-start-line="76" selection-start-column="164" selection-end-line="76" selection-end-column="164" />
-              <folding />
+            <state relative-caret-position="453">
+              <caret line="264" column="29" lean-forward="true" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="29" />
+              <folding>
+                <element signature="e#13319#13325#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="221" column="21" lean-forward="false" selection-start-line="221" selection-start-column="21" selection-end-line="221" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -51,7 +54,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>covered</find>
+      <find>zimm</find>
       <find>covere</find>
+      <find>logos</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,8 +66,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -151,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
-      <workItem from="1523157669345" duration="11847000" />
+      <workItem from="1523157669345" duration="19315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11850000" />
+    <option name="totallyTimeSpent" value="19318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
@@ -191,18 +197,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="453">
+          <caret line="264" column="29" lean-forward="true" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="29" />
+          <folding>
+            <element signature="e#13319#13325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="76" column="164" lean-forward="false" selection-start-line="76" selection-start-column="164" selection-end-line="76" selection-end-column="164" />
+        <state relative-caret-position="424">
+          <caret line="221" column="21" lean-forward="false" selection-start-line="221" selection-start-column="21" selection-end-line="221" selection-end-column="21" />
           <folding />
         </state>
       </provider>
