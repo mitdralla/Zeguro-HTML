@@ -82,25 +82,43 @@
                 <button>Protect yourself with our free trial</button>
             </div>
 
-
             <div class="container">
                 <div class="section centered covered inner_content_wrapper">
                     <h2>We've Got You Covered</h2>
                     <img src="/img/cyber_guard.jpg" />
                     <p>Zeguro is your Virtual Cybersecurity Officer. We are on the job 24/7. Our end-to-end business protection makes it easy for you, your employees and your IT team to mitigate cyber risk.</p>
                     <div class="timeline_left">
-                        <h5>Continuous Security</h5>
-                        <p>Zeguro's always-on monitoring identifies cyber risks - both inside and outside, and helps fix them.</p>
+                        <div class="security" id="security">
+                            <h5>Continuous Security</h5>
+                            <p>Zeguro's always-on monitoring identifies cyber risks - both inside and outside, and helps fix them.</p>
+                        </div>
 
-                        <h5>Customer Confidence</h5>
-                        <p>Show your customers - both enterprises and customers - that you're doing the outmost to protect their data and privacy. Zeguro's <strong>ZIMM</strong> score announces that your company adheres to industry best practices.</p>
+                        <div class="customer" id="customer">
+                            <h5>Customer Confidence</h5>
+                            <p>Show your customers - both enterprises and customers - that you're doing the outmost to protect their data and privacy. Zeguro's <strong>ZIMM</strong> score announces that your company adheres to industry best practices.</p>
+                        </div>
                     </div>
-                    <div class="timeline_right">
-                        <h5>Employee Compliance</h5>
-                        <p>Make sure your employees have the right tools, processes, and training to help them work in a mutually secure environment.</p>
 
-                        <h5>Tailored Insurance</h5>
-                        <p>You should only pay for what you need. We provide the right cyber insurance for your business - and reward your for maintaining a robust stance on data security.</p>
+
+                    <div class="timeline_right">
+                        <div class="bubble_wrapper">
+                            <ul class="circles" style="margin-left:-75px;">
+                                <li class="security_circle" id="security_circle">O</li>
+                                <li class="employee_circle" id="employee_circle">O</li>
+                                <li class="customer_circle" id="customer_circle">O</li>
+                                <li class="insurance_circle" id="insurance_circle">O</li>
+                            </ul>
+                        </div>
+
+                        <div class="employee" id="employee">
+                            <h5>Employee Compliance</h5>
+                            <p>Make sure your employees have the right tools, processes, and training to help them work in a mutually secure environment.</p>
+                        </div>
+
+                        <div class="insurance" id="insurance">
+                            <h5>Tailored Insurance</h5>
+                            <p>You should only pay for what you need. We provide the right cyber insurance for your business - and reward your for maintaining a robust stance on data security.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -311,7 +329,7 @@
 
                     <div class="module col-md-2">
                         <ul>
-                            <a>
+                            <li>
                                 <a href="https://www.facebook.com/zeguroinc/"><img src="/img/fb_logo.jpg" /></a>
                                 <a href="https://www.linkedin.com/company/7965652/"><img src="/img/twitter_logo.jpg" /></a>
                                 <a href="https://twitter.com/Zeguroinc/"><img src="/img/linkedin_logo.jpg" /></a>
@@ -381,13 +399,32 @@
     <script type="text/javascript">
 
         // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {myFunction()};
+        window.onscroll = function() {
+            myFunction();
+            toggleSecurityOpacity();
+            toggleCustomerOpacity();
+            toggleEmployeeOpacity();
+            toggleInsuranceOpacity();
+        };
 
         // Get the navbar
         var navbar = document.getElementById("nav_wrapper");
+        var security_opacity = document.getElementById("security");
+        var customer_opacity = document.getElementById("customer");
+        var employee_opacity = document.getElementById("employee");
+        var insurance_opacity = document.getElementById("insurance");
+
+        var security_circle = document.getElementById("security_circle");
+        var customer_circle = document.getElementById("customer_circle");
+        var employee_circle = document.getElementById("employee_circle");
+        var insurance_circle = document.getElementById("insurance_circle");
 
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
+        var security = security_opacity.offsetTop;
+        var customer = customer_opacity.offsetTop;
+        var employee = employee_opacity.offsetTop;
+        var insurance = insurance_opacity.offsetTop;
 
         // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
@@ -395,6 +432,54 @@
                 navbar.classList.add("sticky")
             } else {
                 navbar.classList.remove("sticky");
+            }
+        }
+
+        function toggleSecurityOpacity() {
+            if (window.pageYOffset >= security -400) {
+                security_opacity.classList.add("opacity");
+                security_circle.classList.add("opacity");
+                security_circle.classList.add("circles_colored");
+            } else {
+                security_opacity.classList.remove("opacity");
+                security_circle.classList.remove("opacity");
+                security_circle.classList.remove("circles_colored");
+            }
+        }
+
+        function toggleCustomerOpacity() {
+            if (window.pageYOffset >= customer -400) {
+                customer_opacity.classList.add("opacity");
+                customer_circle.classList.add("opacity");
+                customer_circle.classList.add("circles_colored");
+            } else {
+                customer_opacity.classList.remove("opacity");
+                customer_circle.classList.remove("opacity");
+                customer_circle.classList.remove("circles_colored");
+            }
+        }
+
+        function toggleEmployeeOpacity() {
+            if (window.pageYOffset >= employee -400) {
+                employee_opacity.classList.add("opacity");
+                employee_circle.classList.add("opacity");
+                employee_circle.classList.add("circles_colored");
+            } else {
+                employee_opacity.classList.remove("opacity");
+                employee_circle.classList.remove("opacity");
+                employee_circle.classList.remove("circles_colored");
+            }
+        }
+
+        function toggleInsuranceOpacity() {
+            if (window.pageYOffset >= insurance -400) {
+                insurance_opacity.classList.add("opacity");
+                insurance_circle.classList.add("opacity");
+                insurance_circle.classList.add("circles_colored");
+            } else {
+                insurance_opacity.classList.remove("opacity");
+                insurance_circle.classList.remove("opacity");
+                insurance_circle.classList.remove("circles_colored");
             }
         }
     </script>

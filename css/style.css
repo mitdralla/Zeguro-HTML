@@ -41,6 +41,11 @@ h3, h4, h5 {
     font-family: GraphieSemiBold !important;
 }
 
+.container {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
 .nav_wrapper {
     height: 100px;
     background-color: #fff;
@@ -621,6 +626,38 @@ button:hover {
 
 .investment_partners {
     padding-bottom: 0px !important;
+}
+
+.security, .customer, .employee, .insurance {
+    opacity: .3;
+}
+
+.security_circle,.customer_circle, .employee_circle, .insurance_circle {
+    opacity: .3;
+}
+
+.opacity {
+    opacity: 1 !important;
+}
+
+.circles {
+    list-style-type: none;
+    margin-left: -85px;
+    width: 30px !important;
+    float: left;
+    font-size: 40px;
+}
+
+.circles li {
+    padding-bottom: 30px;
+}
+
+.circles_colored {
+    color: #ff05a1;
+}
+
+.container {
+    margin: 0 auto !important;
 }
 
 @media (min-width: 768px) {
