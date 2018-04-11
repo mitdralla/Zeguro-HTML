@@ -109,6 +109,8 @@ h3, h4, h5 {
 .nav_wrapper li:hover ul li  {
     width: 100%;
     line-height:25px;
+    font-weight: bold;
+    font-family: GraphieSemiBold;
 }
 
 .nav_wrapper li:hover > li {
@@ -151,19 +153,6 @@ h3, h4, h5 {
 
 
 
-
-/*
-.nav_wrapper li:before{
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 1px solid red;
-}
-*/
-
 .main_menu {
     color: #929292;
 }
@@ -173,13 +162,21 @@ h3, h4, h5 {
     color: #929292;
 }
 
-.main_menu li:hover {
+.main_menu li:hover > a {
     font-family: GraphieBold;
 }
 
-.main_menu li:hover li {
-    font-family: GraphieLight !important;
+.main_menu li a li:hover {
+    font-family: GraphieBold;
     font-weight: normal;
+}
+
+.main_menu li > a {
+    font-family: GraphieLight;
+}
+
+.main_menu li > li:hover {
+    font-family: GraphieBold;
 }
 
 .login_button {
@@ -508,7 +505,7 @@ button:hover {
 }
 
 .container.footer {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 0px !important;
 }
 
