@@ -46,6 +46,7 @@ h3, h4, h5 {
     background-color: #fff;
     padding: 20px;
     border-bottom: 1px solid #ccc;
+    z-index: 9999;
 }
 
 .nav_wrapper ul {
@@ -177,8 +178,8 @@ h3, h4, h5 {
 }
 
 .login_button {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
     padding-left: 15px;
     padding-right: 15px;
     width: 100px !important;
@@ -393,7 +394,7 @@ button:hover {
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-    min-height: 463px;
+    min-height: 375px;
     text-align: center;
     margin: 0 auto;
     padding-top:90px;
@@ -616,6 +617,10 @@ button:hover {
 
 .sticky + .main_content {
     padding-top: 100px;
+}
+
+.investment_partners {
+    padding-bottom: 0px !important;
 }
 
 @media (min-width: 768px) {
