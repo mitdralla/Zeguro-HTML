@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.html" afterPath="$PROJECT_DIR$/about-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="891" column="21" lean-forward="false" selection-start-line="891" selection-start-column="21" selection-end-line="891" selection-end-column="21" />
+            <state relative-caret-position="200">
+              <caret line="407" column="19" lean-forward="false" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="185" column="158" lean-forward="false" selection-start-line="185" selection-start-column="158" selection-end-line="185" selection-end-column="158" />
+            <state relative-caret-position="205">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,8 +116,8 @@
         <option value="$PROJECT_DIR$/large-enterprise.html" />
         <option value="$PROJECT_DIR$/small-medium-enterprises.html" />
         <option value="$PROJECT_DIR$/partner-with-zeguro.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/about-us.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -209,12 +210,12 @@
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
       <workItem from="1523157669345" duration="36588000" />
-      <workItem from="1524754266685" duration="13701000" />
+      <workItem from="1524754266685" duration="14297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50292000" />
+    <option name="totallyTimeSpent" value="50888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
@@ -355,18 +356,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="891" column="21" lean-forward="false" selection-start-line="891" selection-start-column="21" selection-end-line="891" selection-end-column="21" />
+        <state relative-caret-position="205">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="185" column="158" lean-forward="false" selection-start-line="185" selection-start-column="158" selection-end-line="185" selection-end-column="158" />
+        <state relative-caret-position="200">
+          <caret line="407" column="19" lean-forward="false" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
           <folding />
         </state>
       </provider>
