@@ -1,0 +1,265 @@
+.get {
+    padding: 31px 15px 20px;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(left, #e00aa0 0%, #661A9E 100%);
+
+/* Mozilla Firefox */
+    background-image: -moz-linear-gradient(left, #e00aa0 0%, #661A9E 100%);
+
+/* Opera */
+    background-image: -o-linear-gradient(left, #e00aa0 0%, #661A9E 100%);
+
+/* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #e00aa0), color-stop(100, #661A9E));
+
+/* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(left, #e00aa0 0%, #661A9E 100%);
+
+/* W3C Markup */
+    background-image: linear-gradient(to right, #e00aa0 0%, #661A9E 100%);
+    text-align: center;
+}
+.get_in {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+.get_in img {
+    max-width: 100%;
+}
+.get_in span {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: GraphieBold;
+    position: absolute;
+    top: 63px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.contact {
+
+}
+.contact_in {
+  padding: 20px 0 29px;
+}
+.contact_left {
+    padding: 27px 0 10px 53px;
+}
+.contact_left form {
+    padding: 19px 0;
+}
+.contact .bootstrap-select {
+    width: 100% !important;
+    margin: 0 0 17px;
+}
+.contact .bootstrap-select button {
+    background: #f4f4f4 !important;
+    font-size: 21px;
+    color: #000000;
+    font-family: GraphieSemiBold !important;
+    text-transform: uppercase;
+    outline: none !important;
+    border: 2px #f4f4f4 solid !important;
+    box-shadow: none;
+    margin:  0;
+    padding: 0 20px;
+    height:  57px;
+    line-height:  57px;
+}
+.btn-group.bootstrap-select.dropup.show button {
+    background: #fff !important;
+    border: 2px #c80da0 solid !important;
+}
+.contact .bootstrap-select button:hover {
+   background: none !important;
+}
+.contact .bootstrap-select .dropdown-toggle:focus,.contact .bootstrap-select.btn-group .dropdown-menu li a span.text:focus,.contact .bootstrap-select.btn-group .dropdown-menu li a span.text:active {
+    outline: none !important;border: none;
+}
+.contact .bootstrap-select.btn-group .dropdown-menu li a span.text {
+    font-family: GraphieLight !important;
+    background: #f4f4f4 !important;
+    font-size: 21px;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    display:  block;
+    line-height: 30px;
+}
+.contact .bootstrap-select.btn-group .dropdown-menu li{
+	margin: 0;
+	padding:  5px 0;
+}
+.contact .dropdown-toggle::after {
+    margin: 0 -5px;
+}
+.contact .bootstrap-select.btn-group .dropdown-menu li a span.text:hover {
+    color: #c80da0;
+	text-decoration: none;
+
+}
+.contact .bootstrap-select.btn-group .dropdown-menu li:focus {
+   outline: none;
+   border: none;
+}
+.contact .bootstrap-select.btn-group .dropdown-menu {
+    top: -3px !IMPORTANT;
+    border: #c0c4c9 0px solid !important;
+    border-top: none !important;
+    background: #f4f4f4 !important;
+    border-radius:  0;
+}
+.contact_left form ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.contact_left form ul > li {margin: 0 0 4px;line-height:  0;}
+.contact_left form ul > li input {
+    height: 57px;
+    border: none !important;
+    font-family: GraphieLight !important;
+    background: #f4f4f4 !important;
+    font-size: 21px;
+    color: #000000;
+    padding: 5px 20px;
+}
+.contact_left form ul > li input:focus {
+	outline: none !important;
+	border: none !important;
+}
+.contact_left form ul > li > ul {
+    margin: 0 -15px;
+
+}
+.contact .bootstrap-select.btn-group .dropdown-menu li a {
+	text-decoration: none;
+}
+.contact_left form ul > li > ul > li {
+
+}
+.contact_left form ul > li textarea {
+    width: 100%;
+    padding: 15px 20px;
+    font-family: GraphieLight !important;
+    background: #f4f4f4 !important;
+    font-size: 21px;
+    line-height:  25px;
+    color: #000000;
+    height:  275px;
+    resize:  none;
+    border: none !important;
+}
+.contact_left form ul > li textarea:focus {
+	outline: none;
+}
+.optional {
+	display: inline-block;
+	font-size: 17px;
+	line-height: 17px;
+	margin: 0;
+	font-family: GraphieLight !important;
+
+}
+.submit {
+	font-size: 15px;
+	margin: 0;
+	line-height: 16px;
+}
+.contact_left p {
+    margin:  0;
+    padding: 0 0 22px;
+    font-size: 21px;
+    line-height: 23px;
+    color: #000000;
+}
+.contact_right p {
+    margin:  0;
+    padding: 0 20px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.contact_right {
+    padding: 26px 50px;
+}
+.contact_right_in {
+
+padding: 15px 0 5px;
+}
+.san {
+	display: block;
+	vertical-align: middle;
+	font-size: 0;
+	border-bottom: solid 1px #c0c0d3;
+	padding:  10px 5px 13px;
+}
+.san img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.san h5 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 21px;
+	line-height: 23px;
+	margin: 0;
+	font-weight: 600;
+	padding: 0 6px;
+}
+.contact_right_in ul {
+	margin: 0;
+	list-style: none;
+	padding: 14px 0 0;
+}
+.contact_right_in ul li {
+	padding: 0 0 12px;
+}
+.contact_right_in ul li p {
+	line-height: 29px;
+}
+.contact_right_in ul li p span {
+	font-family: GraphieSemiBold !important;
+	font-weight: 600;
+}
+.contact_right_in ul li p a {
+	font-size: 21px;
+	line-height: 23px;
+	color: #000000;
+	text-decoration: none;
+}
+.check {
+	background: url(../img/news_bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 60px 0 83px;
+}
+.check_in {
+	text-align: center;
+}
+.check_in h2 {
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: 700;
+	color: #fff;
+	padding: 17px 0;
+	margin:  0;
+}
+.check_in p {
+	font-size: 21px;
+	line-height: 22px;
+	font-family: GraphieSemiBold !important;
+	color: #ffffff;
+	margin:  0;
+	padding:  0 0 15px;
+}
+.check_in button {
+	font-size: 15px;
+	letter-spacing:  0;
+}
+.check_in button:hover {
+	background: #26249f;
+}
