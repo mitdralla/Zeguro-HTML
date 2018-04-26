@@ -872,3 +872,85 @@ button a:hover {
     top: -40px;
     visibility: hidden;
 }
+
+.bio {
+    font-size: 16px !important;
+    line-height:20px !important;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+.bios_wrapper {
+    margin-top:30px;
+}
+
+.bios_wrapper img {
+    clear:both;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.check {
+    background: url(../img/news_bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 60px 0 83px;
+}
+.check_in {
+    text-align: center;
+}
+.check_in h2 {
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #fff;
+    padding: 17px 0;
+    margin:  0;
+}
+.check_in p {
+    font-size: 21px;
+    line-height: 22px;
+    font-family: GraphieSemiBold !important;
+    color: #ffffff;
+    margin:  0;
+    padding:  0 0 15px;
+}
+.check_in button {
+    font-size: 15px;
+    letter-spacing:  0;
+}
+.check_in button:hover {
+    background: #26249f;
+}
+
+
+.about_in {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.about_in h1 {
+    padding: 15px 15px 13px 15px;
+    color: #fff;
+    margin:  0;
+}
+.about_in p {
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff !important;
+    padding: 0 0 30px;
+    font-weight: 600;
+}
+.about_in img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.inner_content_wrapper p.multi_p {
+    margin-bottom: 0px;
+}
