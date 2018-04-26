@@ -133,7 +133,7 @@ ul.emptyli{padding:0  !important;}
     position: absolute;
     top: 0;
     left: 50%;
-    width: 100px;
+    width: 90px;
     transform: translate(-50%, 0);
 }
 
@@ -170,6 +170,10 @@ ul.emptyli{padding:0  !important;}
     color: #929292;
 }
 
+.main_menu li:hover a {
+    color: #000;
+}
+
 .main_menu a, .main_menu a:hover, .main_menu a:visited {
     text-decoration: none;
     color: #929292;
@@ -177,6 +181,10 @@ ul.emptyli{padding:0  !important;}
 
 .main_menu li:hover > a {
     font-family: GraphieBold;
+}
+
+.main_menu li li:hover > a {
+    font-family: GraphieLight;
 }
 
 .main_menu li a li:hover {
@@ -707,9 +715,22 @@ button:hover {
 .container.footer.contact ul li {
     font-size: 13px;
     line-height: 16px;
-    font-family: GraphieSemiBold;
+    font-family: GraphieLight;
     text-transform: none;
+    color: #333;
 }
+
+.container.footer.contact ul li a {
+    color: #333;
+    font-family: GraphieLight;
+}
+
+.module_content a:hover {
+    font-family: GraphieSemiBold !important;
+    font-weight: 600;
+}
+
+
 .footer.contact ul li a{color:#000000;font-family: GraphieSemiBold;}
 .container.footer.contact ul li img {
     float:left;
@@ -800,3 +821,24 @@ a:hover .show_hide {
 /*hide for v1*/
 .hideforv1,
 .bottom_piece .row{display: none !important;}
+
+.dropdown-menu li a {
+    outline: none !important;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.light h1, .light h2, .light h3, .light h4, .light h5 {
+    color: #fff !important;
+}
+
+.footer_wrapper {
+    letter-spacing: 0px;
+}
+
+body {
+    letter-spacing: 0px;
+}

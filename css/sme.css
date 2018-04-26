@@ -2,6 +2,7 @@
 background: url(../img/cyber_gradient.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom:30px;
 }
 p {
     color: #000000 !important;
@@ -190,10 +191,9 @@ p {
     position: relative;display: inline-block;
 }
 .min_para {
-    font-size: 12px;
     line-height: 13px;
-    font-family: GraphieLight;
-    font-weight: 600;
+    font-family: GraphieBold !important;
+    font-size: 13px !important;
 }
 .mitigate ul {
     margin: 0;
