@@ -10,6 +10,44 @@ $(document).ready(function() {
         $(this).closest('li').siblings().find('ul').slideUp();
     });
 
+    // Select all links with hashes
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            // On-page links
+            if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                &&
+                location.hostname == this.hostname
+            ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000, function() {
+                        // Callback after animation
+                        // Must change focus!
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                        } else {
+                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                        };
+                    });
+                }
+            }
+        });
+
+
  $('.has-tooltip-top').ariaTooltip({
     responsive: [
 
@@ -34,92 +72,10 @@ $(document).ready(function() {
 
 });
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {
-    myFunction();
-    toggleSecurityOpacity();
-    toggleCustomerOpacity();
-    toggleEmployeeOpacity();
-    toggleInsuranceOpacity();
-};
 
-// Get the navbar
-var navbar = document.getElementById("nav_wrapper");
-var security_opacity = document.getElementById("security");
-var customer_opacity = document.getElementById("customer");
-var employee_opacity = document.getElementById("employee");
-var insurance_opacity = document.getElementById("insurance");
 
-var security_circle = document.getElementById("security_circle");
-var customer_circle = document.getElementById("customer_circle");
-var employee_circle = document.getElementById("employee_circle");
-var insurance_circle = document.getElementById("insurance_circle");
+// //v1 all buttons go to contact
+// $("button" ).click(function() {
+//   window.location = 'contact-us.html';
+// });
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-var security = security_opacity.offsetTop;
-var customer = customer_opacity.offsetTop;
-var employee = employee_opacity.offsetTop;
-var insurance = insurance_opacity.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
-
-function toggleSecurityOpacity() {
-    if (window.pageYOffset >= security -400) {
-        security_opacity.classList.add("opacity");
-        security_circle.classList.add("opacity");
-        security_circle.classList.add("circles_colored");
-    } else {
-        security_opacity.classList.remove("opacity");
-        security_circle.classList.remove("opacity");
-        security_circle.classList.remove("circles_colored");
-    }
-}
-
-function toggleCustomerOpacity() {
-    if (window.pageYOffset >= customer -400) {
-        customer_opacity.classList.add("opacity");
-        customer_circle.classList.add("opacity");
-        customer_circle.classList.add("circles_colored");
-    } else {
-        customer_opacity.classList.remove("opacity");
-        customer_circle.classList.remove("opacity");
-        customer_circle.classList.remove("circles_colored");
-    }
-}
-
-function toggleEmployeeOpacity() {
-    if (window.pageYOffset >= employee -400) {
-        employee_opacity.classList.add("opacity");
-        employee_circle.classList.add("opacity");
-        employee_circle.classList.add("circles_colored");
-    } else {
-        employee_opacity.classList.remove("opacity");
-        employee_circle.classList.remove("opacity");
-        employee_circle.classList.remove("circles_colored");
-    }
-}
-
-function toggleInsuranceOpacity() {
-    if (window.pageYOffset >= insurance -400) {
-        insurance_opacity.classList.add("opacity");
-        insurance_circle.classList.add("opacity");
-        insurance_circle.classList.add("circles_colored");
-    } else {
-        insurance_opacity.classList.remove("opacity");
-        insurance_circle.classList.remove("opacity");
-        insurance_circle.classList.remove("circles_colored");
-    }
-}
-
-//v1 all buttons go to contact
-$("button" ).click(function() {
-  window.location = 'contact-us.html';
-});

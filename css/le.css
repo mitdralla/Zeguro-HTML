@@ -24,6 +24,7 @@ p {
     line-height: 26px;
     color: #fff !important;
     font-weight: 600;
+    margin: 0;
     padding: 0 0 30px;
 }
 .cyber_in img {
@@ -311,4 +312,8 @@ padding: 36px 15px 45px !important;
     background-color: #ff05a1 !important;
     border:2px solid #ff05a1 !important;
     color: #fff;
+}
+
+.assess p {
+    font-size: 21px;
 }
