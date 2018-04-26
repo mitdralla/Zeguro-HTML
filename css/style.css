@@ -954,3 +954,16 @@ button a:hover {
 .inner_content_wrapper p.multi_p {
     margin-bottom: 0px;
 }
+
+.about_logos {
+    padding-left: 0px;
+}
+
+.about_logos li {
+    list-style-type: none;
+    display: inline-block;
+    max-width: 300px !important;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
