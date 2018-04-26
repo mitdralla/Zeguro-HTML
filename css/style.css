@@ -873,14 +873,23 @@ button a:hover {
     visibility: hidden;
 }
 
+.name {
+    color: #2daae1;
+    font-weight: 600;
+}
+
 .bio {
     font-size: 16px !important;
     line-height:20px !important;
+    padding-top:0px !important;
 }
 
 .title {
     text-transform: uppercase;
-    font-size:18px;
+    font-size:15px;
+    color: #5f6875 !important;
+    font-family: GraphieLight;
+    font-weight: 400;
 }
 
 .bios_wrapper {
