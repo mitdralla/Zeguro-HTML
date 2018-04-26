@@ -842,3 +842,7 @@ h1, h2, h3, h4 {
 body {
     letter-spacing: 0px;
 }
+
+.main_aux_nav .login_button:hover a {
+    color: #fff !important;
+}
