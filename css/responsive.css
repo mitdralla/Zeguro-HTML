@@ -59,6 +59,7 @@
     .help_left,.help_right {padding: 0 15px;}
     .help {padding: 20px 0 !important;}
     .module {padding: 0 15px;}
+
 }
 @media (max-width:767px){
     .nav-icon {display: block;}
@@ -106,6 +107,9 @@
     .contact .bootstrap-select.btn-group .dropdown-menu li a span.text {font-size: 18px;line-height: 25px;}
     .contact .bootstrap-select.btn-group .dropdown-menu li {padding: 0;}
     .contact_left form ul > li > ul > li {width: 100% !important;max-width: 100% !important;}
+    .cyber_in p, .cyber_in li p { text-align: center !important; }
+
+
 }
 @media (max-width:599px){
     .hero_wrapper h1 {font-size: 24px;}
@@ -121,8 +125,6 @@
     .cyber_in p {font-size: 20px;}
     .zeguro h2,.businees h2 {font-size: 24px;line-height: 26px;}
     .hero_wrapper,.secure_more {min-height: 490px;}
-
-
 }
 @media (max-width:479px){
     .hero_wrapper h1 {font-size: 24px;}
