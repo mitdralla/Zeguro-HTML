@@ -168,6 +168,19 @@ ul.emptyli{padding:0  !important;}
     color: #35c5f3;
 }
 
+.light_orange {
+    color: #ffd479;
+}
+
+.light_pink {
+    color: #f996d7 !important;
+}
+
+
+.pink  {
+    color: #ff05a1 !important;
+}
+
 
 
 .main_menu {
@@ -908,6 +921,14 @@ button a:hover {
     background-size: cover;
     padding: 60px 0 83px;
 }
+
+.careers {
+    background: url(../img/careers.jpg) no-repeat !important;
+    background-size: cover;
+    padding: 60px 0 83px;
+    background-size: 100% !important;
+}
+
 .check_in {
     text-align: center;
 }
@@ -975,4 +996,30 @@ button a:hover {
     padding: 15px;
     text-align: center;
     vertical-align: top;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.le_hero span {
+    font-size: 22px;
+}
+
+.le_hero p {
+    font-size: 22px !important;
+    line-height: 32px !important;
+}
+
+.smaller li p {
+    font-size: 18px !important;
+}
+
+.one_hundred {
+    width: 100%;
+    margin-top:15px;
 }

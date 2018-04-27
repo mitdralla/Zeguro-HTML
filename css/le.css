@@ -317,3 +317,8 @@ padding: 36px 15px 45px !important;
 .assess p {
     font-size: 21px;
 }
+
+.cyber_in p {
+    font-family: GraphieLight !important;
+    font-weight: 400;
+}
