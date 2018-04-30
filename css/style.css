@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 1225px;
     }
 }
 
@@ -32,6 +32,7 @@ body {
     letter-spacing: 1px;
     margin:0;
 }
+
 
 h1, h2 {
     font-family: GraphieBold !important;
@@ -374,6 +375,14 @@ button, input {
     background-color:#ff05a1;
 }
 
+.blue_accents button:hover {
+    background-color:#35c5f3 !important;
+}
+
+.orange_accents button:hover {
+    background-color:#ff7800;
+}
+
 button {
     font-size: 16px;
     margin-top: 15px;
@@ -486,7 +495,7 @@ button:hover {
 
 
 .pink button:hover {
-    background-color: #ff05a1 !important;
+    background-color: #ff05a1;
 }
 
 .pink_color:hover {
