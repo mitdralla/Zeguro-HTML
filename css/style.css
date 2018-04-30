@@ -1054,7 +1054,7 @@ button a:hover {
     font-weight: 600 !important;
 }
 
-.zeguro_in img {
+.check_in img {
     width: 75px;
 }
 
@@ -1079,4 +1079,12 @@ button a:hover {
 
 .privacy .section p  {
     margin-bottom:0px;
+}
+
+.about_in {
+    letter-spacing: 2px;
+}
+
+.cyber {
+    letter-spacing: 2px;
 }

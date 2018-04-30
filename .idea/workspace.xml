@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="" />
+    <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.html" afterPath="$PROJECT_DIR$/about-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coming-soon.html" afterPath="$PROJECT_DIR$/coming-soon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us.html" afterPath="$PROJECT_DIR$/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/large-enterprise.html" afterPath="$PROJECT_DIR$/large-enterprise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partner-with-zeguro.html" afterPath="$PROJECT_DIR$/partner-with-zeguro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/privacy.html" afterPath="$PROJECT_DIR$/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/small-medium-enterprises.html" afterPath="$PROJECT_DIR$/small-medium-enterprises.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/terms.html" afterPath="$PROJECT_DIR$/terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thank-you.html" afterPath="$PROJECT_DIR$/thank-you.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="395" column="49" lean-forward="false" selection-start-line="395" selection-start-column="49" selection-end-line="395" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#p#2;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="1056" column="9" lean-forward="false" selection-start-line="1056" selection-start-column="1" selection-end-line="1056" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -29,18 +38,18 @@
       <file leaf-file-name="terms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/terms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="279" column="49" lean-forward="false" selection-start-line="279" selection-start-column="49" selection-end-line="279" selection-end-column="49" />
+            <state relative-caret-position="239">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thank-you.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thank-you.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thank-you.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="194" column="49" lean-forward="false" selection-start-line="194" selection-start-column="49" selection-end-line="194" selection-end-column="49" />
+            <state relative-caret-position="497">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -49,8 +58,8 @@
       <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="356" column="49" lean-forward="false" selection-start-line="356" selection-start-column="42" selection-end-line="356" selection-end-column="49" />
+            <state relative-caret-position="291">
+              <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -59,8 +68,8 @@
       <file leaf-file-name="coming-soon.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coming-soon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="188" column="49" lean-forward="false" selection-start-line="188" selection-start-column="49" selection-end-line="188" selection-end-column="49" />
+            <state relative-caret-position="403">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -68,11 +77,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/large-enterprise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="172" column="51" lean-forward="false" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partner-with-zeguro.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partner-with-zeguro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="283" column="49" lean-forward="false" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
+            <state relative-caret-position="217">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -81,8 +112,8 @@
       <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/privacy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="219" column="49" lean-forward="false" selection-start-line="219" selection-start-column="49" selection-end-line="219" selection-end-column="49" />
+            <state relative-caret-position="356">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -91,31 +122,9 @@
       <file leaf-file-name="small-medium-enterprises.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/small-medium-enterprises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="347" column="49" lean-forward="false" selection-start-line="347" selection-start-column="49" selection-end-line="347" selection-end-column="49" />
+            <state relative-caret-position="337">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partner-with-zeguro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partner-with-zeguro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="235" column="49" lean-forward="false" selection-start-line="235" selection-start-column="49" selection-end-line="235" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/large-enterprise.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="353" column="49" lean-forward="false" selection-start-line="353" selection-start-column="49" selection-end-line="353" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +168,7 @@
       <find>cyber insurance cover</find>
       <find>security for</find>
       <find>accent</find>
+      <find>zeguro_in</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,17 +183,17 @@
         <option value="$PROJECT_DIR$/css/le.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/sme.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/about-us.html" />
-        <option value="$PROJECT_DIR$/coming-soon.html" />
-        <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/large-enterprise.html" />
+        <option value="$PROJECT_DIR$/about-us.html" />
+        <option value="$PROJECT_DIR$/contact-us.html" />
+        <option value="$PROJECT_DIR$/coming-soon.html" />
         <option value="$PROJECT_DIR$/partner-with-zeguro.html" />
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/small-medium-enterprises.html" />
         <option value="$PROJECT_DIR$/terms.html" />
         <option value="$PROJECT_DIR$/thank-you.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/large-enterprise.html" />
       </list>
     </option>
   </component>
@@ -276,12 +286,12 @@
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
       <workItem from="1523157669345" duration="36588000" />
-      <workItem from="1524754266685" duration="25059000" />
+      <workItem from="1524754266685" duration="25875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61650000" />
+    <option name="totallyTimeSpent" value="62466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="0" />
@@ -382,40 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="1079" column="18" lean-forward="false" selection-start-line="1079" selection-start-column="18" selection-end-line="1079" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="356" column="49" lean-forward="false" selection-start-line="356" selection-start-column="42" selection-end-line="356" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coming-soon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="188" column="49" lean-forward="false" selection-start-line="188" selection-start-column="49" selection-end-line="188" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="283" column="49" lean-forward="false" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -426,53 +402,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
+    <entry file="file://$PROJECT_DIR$/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="353" column="49" lean-forward="false" selection-start-line="353" selection-start-column="49" selection-end-line="353" selection-end-column="49" />
+        <state relative-caret-position="291">
+          <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coming-soon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partner-with-zeguro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="235" column="49" lean-forward="false" selection-start-line="235" selection-start-column="49" selection-end-line="235" selection-end-column="49" />
+        <state relative-caret-position="502">
+          <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="219" column="49" lean-forward="false" selection-start-line="219" selection-start-column="49" selection-end-line="219" selection-end-column="49" />
+        <state relative-caret-position="356">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/small-medium-enterprises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="347" column="49" lean-forward="false" selection-start-line="347" selection-start-column="49" selection-end-line="347" selection-end-column="49" />
+        <state relative-caret-position="337">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/terms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="279" column="49" lean-forward="false" selection-start-line="279" selection-start-column="49" selection-end-line="279" selection-end-column="49" />
+        <state relative-caret-position="239">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thank-you.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="194" column="49" lean-forward="false" selection-start-line="194" selection-start-column="49" selection-end-line="194" selection-end-column="49" />
+        <state relative-caret-position="497">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1056" column="9" lean-forward="false" selection-start-line="1056" selection-start-column="1" selection-end-line="1056" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="172" column="51" lean-forward="false" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
