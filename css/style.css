@@ -1065,3 +1065,7 @@ button a:hover {
 .main_menu ul li:hover ul li a {
     color: #929292;
 }
+
+.main_menu ul li {
+    z-index: 999999 !important;
+}
