@@ -1076,3 +1076,7 @@ button a:hover {
     padding: 0 !important;
     margin-bottom:15px !important;
 }
+
+.privacy .section p  {
+    margin-bottom:0px;
+}
