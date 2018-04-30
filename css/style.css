@@ -33,6 +33,10 @@ body {
     margin:0;
 }
 
+.semi_bold {
+    font-family: GraphieSemiBold !important;
+}
+
 
 h1, h2 {
     font-family: GraphieBold !important;
@@ -1040,4 +1044,12 @@ button a:hover {
 
 .assess li p {
     line-height: 36px;
+}
+
+.lep {
+    font-family: GraphieSemiBold !important;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff !important;
+    font-weight: 600 !important;
 }

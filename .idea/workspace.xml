@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coming-soon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.html" afterPath="$PROJECT_DIR$/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us.html" afterPath="$PROJECT_DIR$/contact-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sme.css" afterPath="$PROJECT_DIR$/css/sme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/large-enterprise.html" afterPath="$PROJECT_DIR$/large-enterprise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partner-with-zeguro.html" afterPath="$PROJECT_DIR$/partner-with-zeguro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/small-medium-enterprises.html" afterPath="$PROJECT_DIR$/small-medium-enterprises.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +52,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="794">
+              <caret line="1053" column="31" lean-forward="false" selection-start-line="1053" selection-start-column="31" selection-end-line="1053" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -79,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/large-enterprise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="354" column="53" lean-forward="false" selection-start-line="354" selection-start-column="53" selection-end-line="354" selection-end-column="53" />
+            <state relative-caret-position="152">
+              <caret line="90" column="79" lean-forward="false" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -99,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="small-medium-enterprises.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="small-medium-enterprises.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/small-medium-enterprises.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -165,9 +157,9 @@
       <find>pik</find>
       <find>bottom_piece</find>
       <find>accen</find>
-      <find>accent</find>
       <find>cyber insurance cover</find>
       <find>security for</find>
+      <find>accent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,14 +174,14 @@
         <option value="$PROJECT_DIR$/css/le.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/sme.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/coming-soon.html" />
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/contact-us.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/large-enterprise.html" />
         <option value="$PROJECT_DIR$/partner-with-zeguro.html" />
         <option value="$PROJECT_DIR$/small-medium-enterprises.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/large-enterprise.html" />
       </list>
     </option>
   </component>
@@ -282,12 +274,12 @@
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
       <workItem from="1523157669345" duration="36588000" />
-      <workItem from="1524754266685" duration="20611000" />
+      <workItem from="1524754266685" duration="20948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57202000" />
+    <option name="totallyTimeSpent" value="57539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="0" />
@@ -388,14 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coming-soon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -432,14 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="354" column="53" lean-forward="false" selection-start-line="354" selection-start-column="53" selection-end-line="354" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partner-with-zeguro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -452,6 +428,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="325" column="53" lean-forward="false" selection-start-line="325" selection-start-column="53" selection-end-line="325" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="1053" column="31" lean-forward="false" selection-start-line="1053" selection-start-column="31" selection-end-line="1053" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="90" column="79" lean-forward="false" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
           <folding />
         </state>
       </provider>
