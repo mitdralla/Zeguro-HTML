@@ -1092,3 +1092,7 @@ button a:hover {
 .cyber {
     letter-spacing: 2px;
 }
+
+.privacy_bg {
+    background-color: #f8f8f9 !important;
+}
