@@ -1046,10 +1046,22 @@ button a:hover {
     line-height: 36px;
 }
 
-.lep {
+.lep, .cyber p {
     font-family: GraphieSemiBold !important;
     font-size: 24px;
     line-height: 26px;
     color: #fff !important;
     font-weight: 600 !important;
+}
+
+.zeguro_in img {
+    width: 75px;
+}
+
+.zeguro_in ul li img {
+    margin-left: 36px;
+}
+
+.main_menu ul li:hover ul li a {
+    color: #929292;
 }

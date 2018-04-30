@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="1053" column="31" lean-forward="false" selection-start-line="1053" selection-start-column="31" selection-end-line="1053" selection-end-column="31" />
+            <state relative-caret-position="764">
+              <caret line="1064" column="22" lean-forward="false" selection-start-line="1064" selection-start-column="22" selection-end-line="1064" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -71,12 +71,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="large-enterprise.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/large-enterprise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="90" column="79" lean-forward="false" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
-              <folding />
+            <state relative-caret-position="317">
+              <caret line="101" column="88" lean-forward="false" selection-start-line="101" selection-start-column="88" selection-end-line="101" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +160,8 @@
       <find>bottom_piece</find>
       <find>accen</find>
       <find>cyber insurance cover</find>
-      <find>security for</find>
       <find>accent</find>
+      <find>security for</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,8 +182,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/partner-with-zeguro.html" />
         <option value="$PROJECT_DIR$/small-medium-enterprises.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/large-enterprise.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -274,12 +276,12 @@
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
       <workItem from="1523157669345" duration="36588000" />
-      <workItem from="1524754266685" duration="20948000" />
+      <workItem from="1524754266685" duration="21381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57539000" />
+    <option name="totallyTimeSpent" value="57972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="0" />
@@ -432,18 +434,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="1053" column="31" lean-forward="false" selection-start-line="1053" selection-start-column="31" selection-end-line="1053" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="317">
+          <caret line="101" column="88" lean-forward="false" selection-start-line="101" selection-start-column="88" selection-end-line="101" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/large-enterprise.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="90" column="79" lean-forward="false" selection-start-line="90" selection-start-column="79" selection-end-line="90" selection-end-column="79" />
+        <state relative-caret-position="764">
+          <caret line="1064" column="22" lean-forward="false" selection-start-line="1064" selection-start-column="22" selection-end-line="1064" selection-end-column="22" />
           <folding />
         </state>
       </provider>
