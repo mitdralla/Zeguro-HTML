@@ -74,7 +74,7 @@ h3, h4, h5 {
 }
 
 .main_nav li {
-    min-width: 150px;
+    min-width: 155px;
 }
 
 .main_nav li ul {
@@ -194,6 +194,7 @@ ul.emptyli{padding:0  !important;}
 .main_menu a, .main_menu a:hover, .main_menu a:visited {
     text-decoration: none;
     color: #929292;
+    letter-spacing: 2px !important;
 }
 
 .main_menu li:hover > a {
@@ -367,6 +368,10 @@ ul.emptyli{padding:0  !important;}
 
 button, input {
     outline: none !important;
+}
+
+.pink_accents button:hover {
+    background-color:#ff05a1;
 }
 
 button {
@@ -837,7 +842,7 @@ a:hover .show_hide {
     }
 /*hide for v1*/
 .hideforv1,
-.bottom_piece .row{display: none !important;}
+.bottom_piece .row{}
 
 .dropdown-menu li a {
     outline: none !important;
