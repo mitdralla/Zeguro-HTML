@@ -1096,3 +1096,8 @@ button a:hover {
 .privacy_bg {
     background-color: #f8f8f9 !important;
 }
+
+.zeguro_main p {
+    font-weight: 400;
+    font-family: GraphieLight !important;
+}
