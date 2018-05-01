@@ -305,7 +305,7 @@ padding: 36px 15px 45px !important;
     font-family: GraphieSemiBold !important;
 }
 .pink button:hover{
-    background-color: #ff7800 !important;
+    background-color: #ff7800;
 }
 .full_cta button:hover {
     background-color: #ff05a1 !important;

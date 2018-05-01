@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 1225px;
     }
 }
 
@@ -32,6 +32,11 @@ body {
     letter-spacing: 1px;
     margin:0;
 }
+
+.semi_bold {
+    font-family: GraphieSemiBold !important;
+}
+
 
 h1, h2 {
     font-family: GraphieBold !important;
@@ -74,7 +79,7 @@ h3, h4, h5 {
 }
 
 .main_nav li {
-    min-width: 150px;
+    min-width: 155px;
 }
 
 .main_nav li ul {
@@ -194,6 +199,7 @@ ul.emptyli{padding:0  !important;}
 .main_menu a, .main_menu a:hover, .main_menu a:visited {
     text-decoration: none;
     color: #929292;
+    letter-spacing: 2px !important;
 }
 
 .main_menu li:hover > a {
@@ -369,6 +375,18 @@ button, input {
     outline: none !important;
 }
 
+.pink_accents button:hover {
+    background-color:#ff05a1;
+}
+
+.blue_accents button:hover {
+    background-color:#35c5f3 !important;
+}
+
+.orange_accents button:hover {
+    background-color:#ff7800;
+}
+
 button {
     font-size: 16px;
     margin-top: 15px;
@@ -481,7 +499,7 @@ button:hover {
 
 
 .pink button:hover {
-    background-color: #ff05a1 !important;
+    background-color: #ff05a1;
 }
 
 .pink_color:hover {
@@ -837,7 +855,7 @@ a:hover .show_hide {
     }
 /*hide for v1*/
 .hideforv1,
-.bottom_piece .row{display: none !important;}
+.bottom_piece .row{}
 
 .dropdown-menu li a {
     outline: none !important;
@@ -1026,4 +1044,60 @@ button a:hover {
 
 .assess li p {
     line-height: 36px;
+}
+
+.lep, .cyber p {
+    font-family: GraphieSemiBold !important;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.check_in img {
+    width: 75px;
+}
+
+.zeguro_in ul li img {
+    margin-left: 0px;
+}
+
+.check_in ul li img {
+    margin-left: 36px;
+}
+
+.main_menu ul li:hover ul li a {
+    color: #929292;
+}
+
+.main_menu ul li {
+    z-index: 999999 !important;
+}
+
+.bio_photo {
+    width: 130px;
+    border-radius: 50%;
+    padding: 0 !important;
+    margin-bottom:15px !important;
+}
+
+.privacy .section p  {
+    margin-bottom:0px;
+}
+
+.about_in {
+    letter-spacing: 2px;
+}
+
+.cyber {
+    letter-spacing: 2px;
+}
+
+.privacy_bg {
+    background-color: #f8f8f9 !important;
+}
+
+.zeguro_main p {
+    font-weight: 400;
+    font-family: GraphieLight !important;
 }
