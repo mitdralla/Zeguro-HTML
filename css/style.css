@@ -1101,3 +1101,65 @@ button a:hover {
     font-weight: 400;
     font-family: GraphieLight !important;
 }
+
+@media (max-width: 767px) {
+    .main_menu li span {
+        width: 100% !important;
+        height: 30px;
+        background: transparent !important;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 999;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav_wrapper ul, .nav_wrapper ul li {
+        float: none;
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 30px !important;
+
+
+    }
+
+    .nav_wrapper li ul:before {
+        background: transparent;
+    }
+
+    .nav_wrapper li:hover ul {
+        display: inline-block;
+        width: 190px !important;
+        background-color: transparent;
+        position: absolute;
+        left: 0px;
+        /* top: 45px; */
+        padding: 15px 0;
+        border: 0;
+        text-align: left;
+        transform: translate(0%, 0);
+        webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .nav_wrapper li ul::before {
+        content: " ";
+        display: block;
+        height: 3px;
+        position: absolute;
+        top: 30px;
+        left: 15%;
+        width: 90px;
+        transform: translate(-50%, 0);
+    }
+}
+
+.bio_module a:hover {
+    text-decoration: none;
+}
+
