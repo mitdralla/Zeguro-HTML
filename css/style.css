@@ -1203,6 +1203,26 @@ button a:hover {
         text-align: left !important;
         padding-bottom: 15px !important;
     }
+
+    .zeguro_in, .zeguro_main, .zeguro_in li  {
+        text-align:center !important;
+    }
+
+    .zeguro_main {
+        padding-left: 0px !important;
+    }
+
+    .zeguro_in li span {
+        display: none !important;
+    }
+
+    .zeguro_in li img {
+        padding-bottom: 10px !important;
+    }
+
+    .assess_in, .help_in .help_main {
+        text-align: center !important;
+    }
 }
 
 .bio_module a:hover {
