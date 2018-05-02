@@ -1182,7 +1182,9 @@ button a:hover {
         width: 100% !important;
         margin-top: 20px !important;
         text-align: center !important;
-        padding-30px;
+        border: 2px solid transparent;
+        border-image: linear-gradient(90deg, rgba(60,57,146,1) 10%, rgba(239,60,150,1));
+        border-image-slice: 1;
     }
 
     .boilerimage {
@@ -1239,6 +1241,10 @@ button a:hover {
     .about_in button {
         margin-left: 0 !important;
         margin-right: 0 !important;
+    }
+
+    .careers {
+        background-size: auto !important;
     }
 }
 
