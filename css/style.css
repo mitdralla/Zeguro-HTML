@@ -1194,6 +1194,15 @@ button a:hover {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
+
+    .hero_wrapper {
+        padding-top: 15px !important;
+    }
+
+    .footer_wrapper ul li {
+        text-align: left !important;
+        padding-bottom: 15px !important;
+    }
 }
 
 .bio_module a:hover {
