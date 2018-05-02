@@ -1104,7 +1104,6 @@ button a:hover {
 
 @media (max-width: 767px) {
     .main_menu li span {
-        width: 100% !important;
         height: 30px;
         background: transparent !important;
         position: absolute;
