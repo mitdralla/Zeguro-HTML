@@ -1223,6 +1223,18 @@ button a:hover {
     .assess_in, .help_in .help_main {
         text-align: center !important;
     }
+
+    .timeline_left, .timeline_right {
+        text-align:center !important;
+    }
+
+    .mitigate_people img {
+        width: 80% !important;
+    }
+
+    .check_in img {
+        margin-left: 0px !important;
+    }
 }
 
 .bio_module a:hover {
