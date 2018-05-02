@@ -1101,3 +1101,155 @@ button a:hover {
     font-weight: 400;
     font-family: GraphieLight !important;
 }
+
+@media (max-width: 767px) {
+    .main_menu li span {
+        width: 100% !important;
+        height: 30px;
+        background: transparent !important;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 999;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav_wrapper ul, .nav_wrapper ul li {
+        float: none;
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 10px !important;
+
+
+    }
+
+    .nav_wrapper li ul:before {
+        background: transparent;
+    }
+
+    .nav_wrapper li:hover ul {
+        display: inline-block;
+        width: 190px !important;
+        background-color: transparent;
+        position: absolute;
+        left: 30px;
+        /* top: 45px; */
+        padding: 15px 0;
+        border: 0;
+        text-align: left;
+        transform: translate(0%, 0);
+        webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        margin-left:10px;
+        font-size:20px;
+    }
+
+    .nav_wrapper li ul::before {
+        content: " ";
+        display: block;
+        height: 3px;
+        position: absolute;
+        top: 30px;
+        left: 15%;
+        width: 90px;
+        transform: translate(-50%, 0);
+    }
+
+    .nav_wrapper li ul.green::before {
+        background: transparent;
+    }
+
+    .nav_wrapper li ul.orange::before {
+        background: transparent;
+    }
+
+    .nav_wrapper li ul.blue::before {
+        background: transparent;
+    }
+    .nav_wrapper li ul.purple::before {
+        background: transparent;
+    }
+    .nav_wrapper li ul.darkblue::before {
+        background: transparent;
+    }
+
+    .login_button {
+        width: 100% !important;
+        margin-top: 20px !important;
+        text-align: center !important;
+        border: 2px solid transparent;
+        border-image: linear-gradient(90deg, rgba(60,57,146,1) 10%, rgba(239,60,150,1));
+        border-image-slice: 1;
+    }
+
+    .boilerimage {
+        width: 80% !important;
+    }
+
+    .main_aux_nav {
+        margin-right: 20px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .hero_wrapper {
+        padding-top: 15px !important;
+    }
+
+    .footer_wrapper ul li {
+        text-align: left !important;
+        padding-bottom: 15px !important;
+    }
+
+    .zeguro_in, .zeguro_main, .zeguro_in li  {
+        text-align:center !important;
+    }
+
+    .zeguro_main {
+        padding-left: 0px !important;
+    }
+
+    .zeguro_in li span {
+        display: none !important;
+    }
+
+    .zeguro_in li img {
+        padding-bottom: 10px !important;
+    }
+
+    .assess_in, .help_in .help_main {
+        text-align: center !important;
+    }
+
+    .timeline_left, .timeline_right {
+        text-align:center !important;
+    }
+
+    .mitigate_people img {
+        width: 80% !important;
+    }
+
+    .check_in img {
+        margin-left: 0px !important;
+    }
+
+    .about_in button {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .careers {
+        background-size: auto !important;
+    }
+}
+
+.bio_module a:hover {
+    text-decoration: none;
+    color: #9c1f9e !important;
+}
+

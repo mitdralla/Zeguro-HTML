@@ -68,9 +68,10 @@ p {
     font-size: 42px;
     line-height: 30px;
     display: block;
-    padding: 22px 56px 0;
+    padding: 0;
     position:  relative;
     color: #edecec;
+    z-index:-9999 !important;
 }
 .zeguro_in ul li img {
     opacity: 0;
@@ -107,6 +108,7 @@ p {
     content: '';
     position: absolute;
     top: 36px;
+    top: -36px;
     right: 79%;
     width: 105%;
     height: 2px;
