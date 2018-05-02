@@ -131,7 +131,7 @@
     .hero_wrapper h2 {font-size: 14px;}
     .hero_wrapper button {font-size: 12px;}
     .section h2 {font-size: 24px;}
-    .section p {font-size: 14px;line-height: 22px;}
+    .section p {font-size: 16px;line-height: 22px;}
     .logos li {float: none;width: 100%;text-align: center;}
     .logos li img {margin: 0 auto;}
     .bullets_left p,.bullets_right p {font-size: 14px !important;}
@@ -146,7 +146,16 @@
     .contact_right p,.contact_right_in ul li p,.contact_right_in ul li p a {font-size: 16px;line-height: 20px;}
     .san {padding: 10px 0;}
     .san h5 {font-size: 19px;}
+}
 
+@media only screen
+and (min-width : 769px)
+and (max-width : 890px) {
+    .main_nav li {
+        width: 125px !important;
+    }
 
-
+        .covered {
+            min-height: 801px;
+        }
 }
