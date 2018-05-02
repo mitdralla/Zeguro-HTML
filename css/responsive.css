@@ -154,4 +154,8 @@ and (max-width : 890px) {
     .main_nav li {
         width: 125px !important;
     }
+
+        .covered {
+            min-height: 801px;
+        }
 }
