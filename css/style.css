@@ -1235,6 +1235,11 @@ button a:hover {
     .check_in img {
         margin-left: 0px !important;
     }
+
+    .about_in button {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 }
 
 .bio_module a:hover {
