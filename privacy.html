@@ -47,11 +47,19 @@
     <link rel='stylesheet' id="contact-style" href='css/contact.css?v=9'>
     <link rel='stylesheet' id="main-responsive" href='css/responsive.css?v=9'>
     <link rel='stylesheet' id="bootstrap-style" href='css/bootstrap-select.min.css'>
-    <script>
-        function resizeIframe(obj) {
-            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+
+    <style>
+        tr {
+            border: 1px solid #6d6d6d;
+            padding:15px;
         }
-    </script>
+
+        td {
+            border: 1px solid #6d6d6d;
+            padding:15px;
+            vertical-align: top;
+        }
+    </style>
 </head>
 <body class="privacy">
 
@@ -59,7 +67,7 @@
 <div class="nav_wrapper" id="nav_wrapper">
     <div class="container">
         <div class="row">
-            <div class="nav-icon"><span></span><span></span><span></span></div>
+            <div class="nav-icon"></div>
             <div class="col-lg-3 logo">
                 <a href="index.html"><img src="img/logo.png"/></a>
             </div>
@@ -68,37 +76,33 @@
                     <li><a href="#">What We Do</a>
                         <span></span>
                         <ul class="orange">
-                            <li><a href="small-medium-enterprises.html">Small / Medium Enterprises</a></li>
-                            <li><a href="large-enterprise.html">Large Enterprise</a></li>
-                            <li><a href="partner-with-zeguro.html">Channel Partners</a></li>
+                            <li><a href="small-medium-enterprises.html">Small / Medium Enterprises</a>
+                            <li><a href="large-enterprise.html">Large Enterprise</a>
+                            <li><a href="partner-with-zeguro.html">Channel Partners</a>
                         </ul>
-                    </li>
+                    
                     <li class="hideforv1"><a href="#">Insurance</a>
-                        <span></span>
+                    <span></span>
                         <ul class="green">
-                            <li><a href="coming-soon.html">Coverages</a></li>
-                            <li><a href="coming-soon.html">Claims</a></li>
+                            <li><a href="coming-soon.html">Coverages</a>
+                            <li><a href="coming-soon.html">Claims</a>
                         </ul>
-                    </li>
+                    
                     <li><a href="about-us.html">About Us</a>
-                        <span></span>
+                    <span></span>
                         <ul class="blue">
-                            <li class=""><a href="about-us.html#team">Team</a></li>
-                            <li class=""><a href="about-us.html#news">News</a></li>
-                            <li class=""><a href="about-us.html#careers">Careers</a></li>
+                            <li class=""><a href="about-us.html#team">Team</a>
+                            <li class=""><a href="about-us.html#news">News</a>
+                            <li class=""><a href="about-us.html#careers">Careers</a>
                         </ul>
-                    </li>
+                    
                     <li><a href="contact-us.html">Contact Us</a>
-                        <span></span>
+                    <span></span>
                         <ul class="purple emptyli"></ul>
-                    </li>
+                    
                 </ul>
                 <ul class="main_aux_nav">
-                    <li><a href="contact-us.html">Sign up</a>
-                        <span></span>
-                        <ul class="darkblue emptyli"></ul>
-                    </li>
-                    <li class="login_button"><a href="https://app.zeguro.com/">Login</a></li>
+                    <li class="login_button"><a href="https://app.zeguro.com/">Login</a>
                 </ul>
             </div>
         </div>
@@ -117,521 +121,218 @@
 
     <div class="privacy_bg">
         <div class="container section ">
-            <div class="row ">
-                <iframe src="legal/privacy_worldwide.html" scrolling="no" width="100%" onload="resizeIframe(this);"/>
+            <div class="row inner_content_wrapper" style="margin:0 auto;">
+                <!--<iframe src="legal/privacy_worldwide.html" scrolling="no" width="100%" onload="resizeIframe(this);"/>-->
 
-<!--
-                <p class="c24"><span class="c6 c5">ZEGURO INC – PRIVACY POLICY</span></p>
-                <ol class="c1 lst-kix_list_2-0 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span
-                            class="c5">About our terms of use and privacy policy</span></h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span>These terms of use and privacy policy (“</span><span
-                            class="c5">Policy</span><span>”) relates to the website at </span><span class="c7"><a
-                            class="c14"
-                            href="https://www.google.com/url?q=https://www.zeguro.com/&amp;sa=D&amp;ust=1525147550760000">https://www.zeguro.com/</a></span><span>&nbsp;and </span><span
-                            class="c7"><a class="c14"
-                                          href="https://www.google.com/url?q=https://www.zeguro.co.uk&amp;sa=D&amp;ust=1525147550760000">https://www.zeguro.co.uk</a></span><span>, any subdomain or any such related website and/or mobile application for such website (together the “</span><span
-                            class="c5">Website</span><span class="c0">”).</span></h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">By accessing or using the Website you are agreeing to comply with and be bound by these terms of use (and any documents referred to in them) which govern Zeguro’s relationship with you in relation to the Website. If you do not agree with or accept any of these terms, you should stop using the Website immediately or interact with any other aspect of our business. &nbsp;</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You should read this Policy carefully as it contains important information about how we will use your Data (as defined below in clause 8.1). In certain circumstances (see below) you will be required to indicate your consent to the processing of your Data as set out in this Policy when you first submit such Data to or through the Website. For further information about consent see clause 11 below.</span>
-                    </h2></li>
-                    <li class="c25"><span class="c0">Where we provide the Services under contract with an organization (for example your employer) that organization controls the information processed by the Services. For more information, please see Notice to End Users below. </span>
-                    </li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We may update this Policy from time to time in accordance with clause 23 below. This Policy was last updated on 05/01/2018.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="2">
-                    <li class="c4"><span class="c6 c5">About us</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span>The terms “</span><span
-                            class="c5">Zeguro</span><span>” or “</span><span
-                            class="c5">us</span><span>” or “</span><span class="c5">we</span><span>” refer to Zeguro Inc., the owner of the Website. We are a company registered in San Francisco whose registered office is at 101A Clay St, Suite 280, San Francisco CA 94111. The term “</span><span
-                            class="c5">you</span><span class="c0">” refers to the individual accessing and/or submitting Data to the Website. Zeguro, we and us refers to Zeguro Inc., Zeguro Insurance Services LLC and any of our corporate affiliates.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We, as the Data Controller, can be contacted via our representative and Data Protection Officer, Dan Smith via email on privacy@zeguro.com or call US: +1 (855)980-0660 or UK: +44 203 473 3800.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="3">
-                    <li class="c4" id="h.gjdgxs"><span class="c6 c5">Using the Website and restrictions on use</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4" id="h.30j0zll"><span class="c0">We permit you to use the Website only in accordance with the terms of use set out here (and any documents referred to here). Use of the Website in any other way, including in contravention of any restriction on use set out in these terms and conditions, is not permitted. If you do not agree with the applicable terms you may not use the Website.</span>
-                    </li>
-                    <li class="c4" id="h.1fob9te"><span class="c0">The Website has been prepared, and is intended for use, in accordance with the laws of the United States, England and Wales. If you access the Website from locations outside of the United States, England and Wales you are responsible for compliance with local laws where they are applicable.</span>
-                    </li>
-                    <li class="c4"><span class="c0">As a condition of your use of the Website, you agree:</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-2 start" start="1">
-                    <li class="c2"><span class="c0">not to use the Website to carry out or promote any activity that is unlawful in any way under any applicable law; and</span>
-                    </li>
-                    <li class="c2"><span class="c0">not to use the Website for any purpose that is prohibited by these terms and conditions.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1" start="4">
-                    <li class="c4" id="h.3znysh7"><span class="c0">In addition, for users located in the UK or Wales, &nbsp;your right to use the Website does not permit you to attempt to decompile (as defined in section 50B of the Copyright, Designs and Patents Act 1988) the underlying software (or any part of it) that is used in or to provide the Website, or to observe, study or test the functioning of the underlying software (or any part of it) that is used in or to provide the Website, except and only to the extent that such restrictions are prohibited pursuant to section 50B of the Copyright, Designs and Patents Act 1988.</span>
-                    </li>
-                    <li class="c4"><span class="c0">We may prevent or suspend your access to the Website if you do not comply with any part of these terms and conditions, any terms or policies to which they refer, or any applicable law.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="4">
-                    <li class="c4" id="h.2et92p0"><span class="c6 c5">Availability of the Website</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4"><span class="c0">We reserve the right to update, suspend, withdraw, discontinue or change all or any part of the Website at any time as we see fit and without notice. While we try to make sure that the Website is up-to-date, available and free from bugs, we cannot promise that it will be. Further, we do not promise that the Website will be available at all times nor do we promise the uninterrupted use by you of the Website. If you have any difficulties using the Website, please contact us.</span>
-                    </li>
-                    <li class="c4"><span class="c0">We will not be liable to you if for any reason the Website is unavailable at any time or for any period.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="5">
-                    <li class="c4" id="h.tyjcwt"><span class="c6 c5">Submission and security of information</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4" id="h.3dy6vkm"><span class="c0">You are solely responsible for the accuracy and reliability of any information submitted to or through the Website by you, and you warrant that any information you submit to or through the Website:</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-2 start" start="1">
-                    <li class="c2"><span class="c0">is clear and accurate in all material respects and is not misleading; and</span>
-                    </li>
-                    <li class="c2" id="h.1t3h5sf"><span class="c0">is lawfully submitted and does not breach our terms and conditions or any applicable laws.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1" start="2">
-                    <li class="c4"><span class="c0">We will not be responsible, or liable to any third party, for the content or accuracy of any information submitted to or available through the Website that is posted by you.</span>
-                    </li>
-                    <li class="c4" id="h.4d34og8"><span class="c0">While we try to make sure that the Website is secure, we cannot guarantee the security of any information that you supply to us and therefore we cannot guarantee that it will be kept confidential. For that reason, you should not let us have any information that you regard as confidential, commercially sensitive or valuable.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="6">
-                    <li class="c4"><span class="c6 c5">Ownership and use of the Website</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4"><span class="c0">References in these terms of use to </span><span class="c6 c5">"Intellectual Property Rights</span><span
-                            class="c0">" means copyright, patents, rights in inventions, rights in confidential information, know-how, trade secrets, trade marks, service marks, trade names, design rights, rights in get-up, database rights, rights in data, domain names, rights in computer software and all similar rights of whatever nature and, in each case: (i) whether registered or not, (ii) including any applications to protect or register such rights, (iii) including all renewals and extensions of such rights or applications, (iv) whether vested, contingent or future and (v) wherever in the world they exist.</span>
-                    </li>
-                    <li class="c4"><span class="c0">The Website and all Intellectual Property Rights in it are owned by us, our licensors or both (as applicable). Such Intellectual Property Rights are protected by copyright laws and treaties around the world. We and our licensors reserve all of our and their rights in any such Intellectual Property Rights in connection with these terms of use. This means, for example, that we and they remain owners of them and free to use them as we and they see fit.</span>
-                    </li>
-                    <li class="c4"><span class="c0">Nothing in these terms and conditions grants you any legal rights in the Website other than as necessary to enable you to access the Website, and any further or additional use is strictly prohibited unless you have our prior written permission.</span>
-                    </li>
-                    <li class="c4"><span class="c0">If you submit a testimonial to us using our Website, then you agree that we may publish your testimonial, together with your name, on the Website. You further agree that we may edit the testimonial and publish edited or partial versions of the testimonial. However, we will never edit a testimonial in such a way as to create a misleading impression of your views. </span>
-                    </li>
-                    <li class="c4"><span class="c0">If you copy, download or otherwise use any part of the Website in breach of these terms of use, your right to use the Website will cease immediately and you must, at our option, return or destroy any copies of the materials you have made.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-0" start="7">
-                    <li class="c4"><span class="c6 c5">Data Protection for EU and UK users</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_2-1 start" start="1">
-                    <li class="c4"><h2 id="h.2s8eyo1" style="display:inline"><span class="c0">References in this Policy to:</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-2 start" start="1">
-                    <li class="c2"><h3 style="display:inline"><span>“</span><span class="c5">Privacy and Data Protection Requirements</span><span>” means: the Data Protection Act 1998 (until repealed) (“</span><span
-                            class="c5">DPA</span><span>”), the Data Protection Directive (</span><span class="c17">95/46/EC</span><span>) (until repealed) and, from 25 May 2018, the General Data Protection Regulation </span><span
-                            class="c17">2016/679 </span><span>(“</span><span class="c5">GDPR</span><span>”) or any equivalent provision which may replace the GDPR following the formal political separation of the United Kingdom from the European Union; the Regulation of Investigatory Powers Act 2000; the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000 (</span><span
-                            class="c17">SI 2000/2699</span><span>); the Electronic Communications Data Protection Directive (</span><span
-                            class="c17">2002/58/EC</span><span>); the Privacy and Electronic Communications (EC Directive) Regulations 2003 (</span><span
-                            class="c17">SI 2426/2003</span><span class="c0">); and all applicable laws and regulations which may be in force from time to time relating to the processing of Personal Data and privacy, including where applicable the guidance and codes of practice issued by the Information Commissioner or any other supervisory authority, and the equivalent of any of the foregoing in any relevant jurisdiction; and</span>
-                    </h3></li>
-                    <li class="c2"><h3 id="h.17dp8vu" style="display:inline"><span>“</span><span class="c5">Personal Data</span><span>”, “</span><span
-                            class="c5">Data Controller</span><span>” and “</span><span
-                            class="c5">Data Processor</span><span>” and “</span><span class="c5">processing</span><span
-                            class="c0">” shall have the meanings given to them in the DPA or, from 25 May 2018, the GDPR.</span>
-                    </h3></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">For the purposes of applicable Privacy and Data Protection Requirements, we (Zeguro) are a Data Controller and therefore we are responsible for, and control the processing of, your Personal Data in accordance with applicable Privacy and Data Protection Requirements. “Personal Data” has a legal definition but, in brief, it refers to information relating to an identifiable person who can be directly or indirectly identified in particular by reference to an identifier. Such information must be protected in accordance with applicable Privacy and Data Protection Requirements.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0 start" start="1">
-                    <li class="c4 c10" id="h.3rdcrjn"><span class="c6 c5">Information we may collect about you</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 id="h.26in1rg" style="display:inline"><span>When you use the Website and/or when you otherwise deal with us we may collect the following information about you (“</span><span
-                            class="c5">Data</span><span class="c0">”):</span></h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-2 start" start="1">
-                    <li class="c2"><h2 style="display:inline"><span class="c0">personal information including first and last name, date of birth, photograph and/or likeness;</span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">contact information including current residential address, work email address, primary email address and/or primary phone number;</span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">technical information including IP address, operating Website, browser type and related information regarding the device you used to visit the Website, the length of your visit and your interactions with the Website; </span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">information obtained through our correspondence and monitoring in accordance with clause 17 below; and</span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">details of any insurance made by you through the Website, together with details relating to subsequent correspondence (if applicable).</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1" start="2">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We may monitor your use of the Website through ‘cookies’ and similar tracking technologies. We may also monitor traffic, location and other data and information about users of the Website. Such data and information, to the extent that you are individually identifiable from it, shall constitute Data as defined above. However, some of this Data will be aggregated or statistical, which means that we will not be able to identify you individually. See clause 22 below for further information on our use of cookies.</span>
-                    </h2></li>
-                    <li class="c4"><h2 id="h.lnxbz9" style="display:inline"><span class="c0">Occasionally we may receive information about you from other sources, for example any insurance companies or cyber security providers, or cloud service providers you connect with through the Website, or from any third party websites and applications that integrate or communicate with the Website in relation to you. If so, we will add this information to the Data we already hold about you in order to help us carry out the activities listed below.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="2">
-                    <li class="c4"><span class="c5 c6">How long we keep your Data</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 id="h.35nkun2" style="display:inline"><span class="c0">Subject to clause 9.2, we will keep your Data only for the purposes set out in the table below for:</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-2 start" start="1">
-                    <li class="c2"><h2 style="display:inline"><span class="c0">5 Years where the legal basis is our legitimate interest in providing services;</span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">5 Years or until consent is withdrawn (whichever is sooner), where the legal basis is express consent; or</span>
-                    </h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">7 Years where the legal basis is a legal requirement.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1" start="2">
-                    <li class="c4"><h2 id="h.1ksv4uv" style="display:inline"><span class="c0">If required, we will be entitled to hold Data for longer periods in order to comply with our legal or regulatory obligations.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="3">
-                    <li class="c4 c10" id="h.44sinio"><span class="c6 c5">The purpose and legal basis for the processing (for EEA Users)</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">If you are an individual in the European Economic Area (EEA), we collect and process information about you only where we have legal bases for doing so under applicable EU laws. &nbsp;The legal bases depend on the Services you use and how you use them. For the purposes of this Policy, our legal basis for processing your Data is set out in the table below.</span>
-                    </h2></li>
-                </ol>
-                <a id="t.91676c64805b1188257293447a3545a9268d7865"></a><a id="t.0"></a>
-                <table class="c26">
+
+                <p style="width:100%; text-align:center;"><strong>ZEGURO INC – PRIVACY POLICY</strong></p>
+                <p>1. <strong>About our terms of use and privacy policy</strong></p>
+
+                <p>1.1. <strong>These terms of use and privacy policy ("Policy") relates to the website at <a href="https://www.google.com/url?q=https://www.zeguro.com/&amp;sa=D&amp;ust=1525147550760000">https://www.zeguro.com/</a> and <a href="https://www.google.com/url?q=https://www.zeguro.co.uk&amp;sa=D&amp;ust=1525147550760000">https://www.zeguro.co.uk</a>, any subdomain or any such related website and/or mobile application for such website (together the "Website").</strong></p>
+                <p>1.2. By accessing or using the Website you are agreeing to comply with and be bound by these terms of use (and any documents referred to in them) which govern Zeguro’s relationship with you in relation to the Website. If you do not agree with or accept any of these terms, you should stop using the Website immediately or interact with any other aspect of our business.</p>
+                <p>1.3. You should read this Policy carefully as it contains important information about how we will use your Data (as defined below in clause 8.1). In certain circumstances (see below) you will be required to indicate your consent to the processing of your Data as set out in this Policy when you first submit such Data to or through the Website. For further information about consent see clause 11 below.</p>
+                <p>1.4. Where we provide the Services under contract with an organization (for example your employer) that organization controls the information processed by the Services. For more information, please see Notice to End Users below. </p>
+                <p>1.5. We may update this Policy from time to time in accordance with clause 23 below. This Policy was last updated on 05/01/2018.</p>
+                <p>2. <strong>About us</strong></p>
+                <p>2.1. <strong>The terms "Zeguro" or "us" or "we" refer to Zeguro Inc., the owner of the Website. We are a company registered in San Francisco whose registered office is at 101A Clay St, Suite 280, San Francisco CA 94111. The term "you" refers to the individual accessing and/or submitting Data to the Website. Zeguro, we and us refers to Zeguro Inc., Zeguro Insurance Services LLC and any of our corporate affiliates.</strong></p>
+                <p>2.2. We, as the Data Controller, can be contacted via our representative and Data Protection Officer, Dan Smith via email on <a href="mailto:privacy@zeguro.com">privacy@zeguro.com</a> or call US: <a href="tel:18559800660">+1 (855)980-0660</a> or UK: <a href="tel:442034733800">+44 203 473 3800</a>.</p>
+                <p>3. <strong>Using the Website and restrictions on use</strong></p>
+                <p>3.1. We permit you to use the Website only in accordance with the terms of use set out here (and any documents referred to here). Use of the Website in any other way, including in contravention of any restriction on use set out in these terms and conditions, is not permitted. If you do not agree with the applicable terms you may not use the Website.</p>
+                <p>3.2. The Website has been prepared, and is intended for use, in accordance with the laws of the United States, England and Wales. If you access the Website from locations outside of the United States, England and Wales you are responsible for compliance with local laws where they are applicable.</p>
+                <p>3.3. As a condition of your use of the Website, you agree: not to use the Website to carry out or promote any activity that is unlawful in any way under any applicable law; andnot to use the Website for any purpose that is prohibited by these terms and conditions.</p>
+                <p style="margin-left:30px;">3.3.1. In addition, for users located in the UK or Wales, your right to use the Website does not permit you to attempt to decompile (as defined in section 50B of the Copyright, Designs and Patents Act 1988) the underlying software (or any part of it) that is used in or to provide the Website, or to observe, study or test the functioning of the underlying software (or any part of it) that is used in or to provide the Website, except and only to the extent that such restrictions are prohibited pursuant to section 50B of the Copyright, Designs and Patents Act 1988.</p>
+                <p style="margin-left:30px;">3.3.2. We may prevent or suspend your access to the Website if you do not comply with any part of these terms and conditions, any terms or policies to which they refer, or any applicable law.</p>
+                <p>4. <strong>Availability of the Website</strong></p>
+                <p>4.1. We reserve the right to update, suspend, withdraw, discontinue or change all or any part of the Website at any time as we see fit and without notice. While we try to make sure that the Website is up-to-date, available and free from bugs, we cannot promise that it will be. Further, we do not promise that the Website will be available at all times nor do we promise the uninterrupted use by you of the Website. If you have any difficulties using the Website, please contact us.</p>
+                <p>4.2. We will not be liable to you if for any reason the Website is unavailable at any time or for any period.</p>
+                <p>5. <strong>Submission and security of information</strong></p>
+                <p>5.1. You are solely responsible for the accuracy and reliability of any information submitted to or through the Website by you, and you warrant that any information you submit to or through the Website: </p>
+                <p style="margin-left:30px;">5.1.2. is clear and accurate in all material respects and is not misleading; and</p>
+                <p style="margin-left:30px;">5.2.3. is lawfully submitted and does not breach our terms and conditions or any applicable laws.</p>
+                <p>5.2. We will not be responsible, or liable to any third party, for the content or accuracy of any information submitted to or available through the Website that is posted by you.</p>
+                <p>5.3. While we try to make sure that the Website is secure, we cannot guarantee the security of any information that you supply to us and therefore we cannot guarantee that it will be kept confidential. For that reason, you should not let us have any information that you regard as confidential, commercially sensitive or valuable.</p>
+                <p>6. <strong>Ownership and use of the Website</strong></p>
+                <p>6.1. References in these terms of use to "Intellectual Property Rights" means copyright, patents, rights in inventions, rights in confidential information, know-how, trade secrets, trade marks, service marks, trade names, design rights, rights in get-up, database rights, rights in data, domain names, rights in computer software and all similar rights of whatever nature and, in each case: (i) whether registered or not, (ii) including any applications to protect or register such rights, (iii) including all renewals and extensions of such rights or applications, (iv) whether vested, contingent or future and (v) wherever in the world they exist.</p>
+                <p>6.2. The Website and all Intellectual Property Rights in it are owned by us, our licensors or both (as applicable). Such Intellectual Property Rights are protected by copyright laws and treaties around the world. We and our licensors reserve all of our and their rights in any such Intellectual Property Rights in connection with these terms of use. This means, for example, that we and they remain owners of them and free to use them as we and they see fit.</p>
+                <p>6.3. Nothing in these terms and conditions grants you any legal rights in the Website other than as necessary to enable you to access the Website, and any further or additional use is strictly prohibited unless you have our prior written permission.</p>
+                <p>6.4. If you submit a testimonial to us using our Website, then you agree that we may publish your testimonial, together with your name, on the Website. You further agree that we may edit the testimonial and publish edited or partial versions of the testimonial. However, we will never edit a testimonial in such a way as to create a misleading impression of your views. </p>
+                <p>6.5. If you copy, download or otherwise use any part of the Website in breach of these terms of use, your right to use the Website will cease immediately and you must, at our option, return or destroy any copies of the materials you have made.</p>
+                <p>7. <strong>Data Protection for EU and UK users</strong></p>
+                <p>7.1. References in this Policy to:</p>
+                <p style="margin-left:30px;">0.0.1. <strong>"Privacy and Data Protection Requirements" means: the Data Protection Act 1998 (until repealed) ("DPA"), the Data Protection Directive (95/46/EC) (until repealed) and, from 25 May 2018, the General Data Protection Regulation 2016/679 ("GDPR") or any equivalent provision which may replace the GDPR following the formal political separation of the United Kingdom from the European Union; the Regulation of Investigatory Powers Act 2000; the Telecommunications (Lawful Business Practice) (Interception of Communications) Regulations 2000 (SI 2000/2699); the Electronic Communications Data Protection Directive (2002/58/EC); the Privacy and Electronic Communications (EC Directive) Regulations 2003 (SI 2426/2003);</strong> and all applicable laws and regulations which may be in force from time to time relating to the processing of Personal Data and privacy, including where applicable the guidance and codes of practice issued by the Information Commissioner or any other supervisory authority, and the equivalent of any of the foregoing in any relevant jurisdiction; and</p>
+                <p style="margin-left:30px;">0.0.2.<strong>"Personal Data", "Data Controller" and "Data Processor" and "processing"</strong> shall have the meanings given to them in the DPA or, from 25 May 2018, the GDPR.</p>
+                <p>0.1. For the purposes of applicable Privacy and Data Protection Requirements, we (Zeguro) are a Data Controller and therefore we are responsible for, and control the processing of, your Personal Data in accordance with applicable Privacy and Data Protection Requirements. “Personal Data” has a legal definition but, in brief, it refers to information relating to an identifiable person who can be directly or indirectly identified in particular by reference to an identifier. Such information must be protected in accordance with applicable Privacy and Data Protection Requirements.</p>
+                <p>1.<strong>Information we may collect about you</strong></p>
+                <p>1.1.<strong>When you use the Website and/or when you otherwise deal with us we may collect the following information about you ("Data"):</strong></p>
+                <p style="margin-left:30px;">1.1.1. personal information including first and last name, date of birth, photograph and/or likeness;</p>
+                <p style="margin-left:30px;">1.1.2. contact information including current residential address, work email address, primary email address and/or primary phone number;</p>
+                <p style="margin-left:30px;">1.1.3. technical information including IP address, operating Website, browser type and related information regarding the device you used to visit the Website, the length of your visit and your interactions with the Website;</p>
+                <p style="margin-left:30px;">1.1.4. information obtained through our correspondence and monitoring in accordance with clause 17 below; and</p>
+                <p style="margin-left:30px;">1.1.5. details of any insurance made by you through the Website, together with details relating to subsequent correspondence (if applicable).</p>
+                <p>1.2. We may monitor your use of the Website through ‘cookies’ and similar tracking technologies. We may also monitor traffic, location and other data and information about users of the Website. Such data and information, to the extent that you are individually identifiable from it, shall constitute Data as defined above. However, some of this Data will be aggregated or statistical, which means that we will not be able to identify you individually. See clause 22 below for further information on our use of cookies.</p>
+                <p>1.3. Occasionally we may receive information about you from other sources, for example any insurance companies or cyber security providers, or cloud service providers you connect with through the Website, or from any third party websites and applications that integrate or communicate with the Website in relation to you. If so, we will add this information to the Data we already hold about you in order to help us carry out the activities listed below.</p>
+                <p>2. <strong>How long we keep your Data</strong></p>
+                <p>2.1. Subject to clause 9.2, we will keep your Data only for the purposes set out in the table below for:</p>
+                <p style="margin-left:30px;">2.1.1. 5 Years where the legal basis is our legitimate interest in providing services;</p>
+                <p style="margin-left:30px;">2.1.2. 5 Years or until consent is withdrawn (whichever is sooner), where the legal basis is express consent; or</p>
+                <p style="margin-left:30px;">2.1.3. 7 Years where the legal basis is a legal requirement.</p>
+                <p>2.2. If required, we will be entitled to hold Data for longer periods in order to comply with our legal or regulatory obligations.</p>
+                <p>3. <strong>The purpose and legal basis for the processing (for EEA Users)</strong></p>
+                <p>If you are an individual in the European Economic Area (EEA), we collect and process information about you only where we have legal bases for doing so under applicable EU laws. &nbsp;The legal bases depend on the Services you use and how you use them. For the purposes of this Policy, our legal basis for processing your Data is set out in the table below.</p>
+
+                <p><br /></p>
+
+                <table style="border:1px solid #6d6d6d;">
                     <tbody>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c6 c5">Why we will process your Data</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c6 c5">The legal basis for which is...</span>
-                        </h3></td>
+                    <tr>
+                        <td><strong>Why we will process your Data</strong></td>
+                        <td><strong>The legal basis for which is...</strong></td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9" id="h.2jxsxqh"><span class="c0">to operate, administer, maintain, provide, analyse and improve the Website and the services available through the Website.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h2 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h2>
-                            <h3 class="c9"><span class="c0">This processing is necessary for the legitimate interests we pursue.</span>
-                            </h3></td>
+                    <tr>
+                        <td>to operate, administer, maintain, provide, analyse and improve the Website and the services available through the Website.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.
+                        This processing is necessary for the legitimate interests we pursue.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to investigate and address any comments, queries or complaints made by you regarding the Site, and any similar or related comments, queries or complaints from other users.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h2 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h2></td>
+                    <tr>
+                        <td>to investigate and address any comments, queries or complaints made by you regarding the Site, and any similar or related comments, queries or complaints from other users.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9" id="h.z337ya"><span class="c0">to conduct research, statistical analysis and behavioral analysis (including anonymizing data for these purposes).</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h2 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h2></td>
+                    <tr>
+                        <td>to conduct research, statistical analysis and behavioral analysis (including anonymizing data for these purposes).</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9" id="h.3j2qqm3"><span class="c0">for administration, maintenance and improvements of the Website and/or our services.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h2 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h2></td>
+                    <tr>
+                        <td>for administration, maintenance and improvements of the Website and/or our services.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to contact you for marketing purposes (see 'Marketing and opting out' in clause 12 below).</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">if we contact you by post this processing is necessary for the legitimate interests we pursue; whereas we will only contact you for marketing purposes by email or SMS if you have given your express consent for this specific purpose. </span>
-                        </h3></td>
+                    <tr>
+                        <td>to contact you for marketing purposes (see 'Marketing and opting out' in clause 12 below)</td>
+                        <td>if we contact you by post this processing is necessary for the legitimate interests we pursue; whereas we will only contact you for marketing purposes by email or SMS if you have given your express consent for this specific purpose.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to notify you about changes to the Website.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h3></td>
+                    <tr>
+                        <td>to notify you about changes to the Website.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to ensure that content from the Website is presented in the most effective manner for you and for your device.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h3></td>
+                    <tr>
+                        <td>to ensure that content from the Website is presented in the most effective manner for you and for your device.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to provide insights based on aggregated, anonymous data collected through the research and analysis referred to above.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h3></td>
+                    <tr>
+                        <td>to provide insights based on aggregated, anonymous data collected through the research and analysis referred to above.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to allow you to participate in interactive features of the Website, including inputting information and providing feedback.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</span>
-                        </h3></td>
+                    <tr>
+                        <td>to allow you to participate in interactive features of the Website, including inputting information and providing feedback.</td>
+                        <td>subject to your rights set out in clause 20 below, the legitimate interest of providing services to our users through the Website, which requires the processing of your Data to enable us to provide these services.</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to disclose your information to selected third parties as permitted by this Policy (see clause 14 below).</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h2 class="c9"><span class="c0">your consent where given separately for that particular purpose (for which see clause 11 below).</span>
-                        </h2></td>
+                    <tr>
+                        <td>to disclose your information to selected third parties as permitted by this Policy (see clause 14 below).</td>
+                        <td>your consent where given separately for that particular purpose (for which see clause 11 below).</td>
                     </tr>
-                    <tr class="c11">
-                        <td class="c8" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">to comply with our legal obligations, including obligations relating to the protection of Personal Data.</span>
-                        </h3></td>
-                        <td class="c16" colspan="1" rowspan="1"><h3 class="c9"><span class="c0">where required by (but not limited to) any request or order from law enforcement agencies in connection with any investigation to help prevent unlawful activity.</span>
-                        </h3></td>
+                    <tr>
+                        <td>to comply with our legal obligations, including obligations relating to the protection of Personal Data.</td>
+                        <td>where required by (but not limited to) any request or order from law enforcement agencies in connection with any investigation to help prevent unlawful activity.</td>
                     </tr>
                     </tbody>
                 </table>
-                <ol class="c1 lst-kix_list_3-0" start="4">
-                    <li class="c4 c10" id="h.1y810tw"><span class="c6 c5">Your consent to processing</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 id="h.4i7ojhp" style="display:inline"><span class="c0">As noted above, you will be required to give consent to certain processing activities before we can process your Data as set out in this Policy. Where applicable, we will seek this consent from you when you first submit Data to or through the Website.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">If you have previously given consent you may freely withdraw such consent at any time. You can do this through your account on the Website or by notifying us in writing (see clause 28 below).</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">If you withdraw your consent, and if we do not have another legal basis for processing your information (see clause 10 above), then we will stop processing your Data. If we do have another legal basis for processing your information then we may continue to do so subject to your legal rights (for which see clause 20 below).</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">Please note that if we need to process your Data in order to operate the Website and/or provide our services, and you object or do not consent to us processing your Data, the Website and/or those services may not be available to you.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="5">
-                    <li class="c4 c10" id="h.2xcytpi"><span class="c6 c5">Marketing and opting out</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 id="h.1ci93xb" style="display:inline"><span>Where you have previously ordered products or services from us we may contact you by email and post about similar or related products, services, promotions and special offers that may be of interest to you. We will inform you (during the sale process) if we intend to use your data for such purposes and give you the opportunity to opt-out of receiving such information from us. In addition, and if you have given permission, we may also contact you by email about our other products, services, promotions and special offers that may be of interest to you. We will inform you (before collecting your data) and seek your permission if we intend to use your data for such additional marketing purposes. If you prefer not to receive any direct marketing communications from us, or you no longer wish to receive them, you can opt out at any time (see below).</span>
-                    </h2></li>
-                    <li class="c4"><h3 id="h.3whwml4" style="display:inline"><span class="c0">You have the right at any time to ask us, or any third party, to stop processing your information for direct marketing purposes. If you wish to exercise this right, you should contact us by sending an email to privacy@zeguro.co.uk, or contact the relevant third party using their given contact details, giving us or them enough information to identify you and deal with your request. Alternatively you can follow the unsubscribe instructions in emails you receive from us or them.</span>
-                    </h3></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="6">
-                    <li class="c4 c10"><span class="c6 c5">Automated decision making</span></li>
-                </ol>
-                <h3 class="c9 c15"><span class="c0">No automated decision making is being done at this time.</span></h3>
-                <ol class="c1 lst-kix_list_3-0" start="7">
-                    <li class="c4 c10" id="h.2bn6wsx"><span class="c6 c5">Customer Data</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4 c10"><span class="c0">You may upload data to our Website, which may include personal information or data about your end users (all of which we call “</span><span
-                            class="c6 c5">Customer Data</span><span class="c0">”). &nbsp;Customer Data is owned and controlled by you, and any Customer Data that we maintain or process we consider to be strictly confidential. We collect and process Customer Data solely on behalf of you/our customers, and in accordance with our agreements with customers. We do not use or disclose Customer Data except as authorized and required by our customers and as provided for in our agreements with our customers. &nbsp;</span>
-                    </li>
-                    <li class="c4 c10"><span class="c0">Zeguro will not be liable for any third-party costs, penalties or claims that arise from the use of Customer Data that is uploaded by you.</span>
-                    </li>
-                    <li class="c4 c10" id="h.qsh70q"><span class="c0">The Customer shall not use, and shall procure that Users do not use, Infringing Data on the Platform.</span>
-                    </li>
-                    <li class="c4 c10" id="h.3as4poj"><span class="c0">The Customer shall retain ownership of all Customer Data and all rights therein. The Customer grants a royalty-free, transferable, non-exclusive license for the term of this Agreement to the Supplier to use the Customer Data to the extent necessary to provide the platform and perform the Customer Support Services (as applicable).</span>
-                    </li>
-                    <li class="c4 c10" id="h.1pxezwc"><span class="c0">The Customer acknowledges that the Supplier has no control over any Customer Data hosted as part of the provision of the Platform and, although it reserves the right to do so, the Supplier does not actively monitor the content of the Customer Data.</span>
-                    </li>
-                    <li class="c4 c10" id="h.49x2ik5"><span class="c0">The Supplier shall notify the Customer immediately if it becomes aware of any allegation that any Customer Data may be Infringing Data and the Supplier shall have the right to remove such Customer Data from the Website without the need to consult the Customer.</span>
-                    </li>
-                    <li class="c4 c10" id="h.2p2csry"><span class="c0">Zeguro respects the rules and laws of the jurisdiction in which it operates, as well as the privacy and rights of its customers. Accordingly, Zeguro provides Customer Information in response to law enforcement requests only when we reasonably believe that we are legally required to do so. To protect our customers’ rights, we carefully review requests to ensure that they comply with the law. Zeguro reserves the right to disclose Customer Data to law enforcement officials in the investigation of fraud or other alleged unlawful activities, only after law enforcement officials provide legal process appropriate for the type of information sought, such as a subpoena, court order, or a warrant.</span>
-                    </li>
-                    <li class="c4 c10" id="h.147n2zr"><span class="c0">The Customer shall indemnify the Supplier from and against all loss caused to the Supplier as a result of the use by the Customer or a User of Infringing Data on the Platform.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="8">
-                    <li class="c4 c10"><span class="c6 c5">Disclosure of your information</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We may disclose your Data (including Personal Data):</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-2 start" start="1">
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to carry out risk management and related services and any other obligations arising from any contracts entered into between us and our customers;</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to investigate and address any comments, queries or complaints made by you or our customers regarding the Website;</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to ensure that content from Website is presented in the most effective manner for you and for your device;</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to conduct research, statistical analysis and behavioral analysis (including anonymizing data for these purposes);</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to other companies within our group of companies (which means our subsidiaries, our ultimate holding company and its subsidiaries)</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to our business partners, service providers or third-party contractors to enable them to undertake services for us and/or on our behalf (and we will ensure they have appropriate measures in place to protect your Data);</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to any prospective buyer or seller (and their represenatives) in the event that we sell or buy any business or assets;</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">if we are under a duty to disclose or share Personal Data in order to comply with any legal obligation, including (but not limited to) any request or order from law enforcement agencies in connection with any investigation to help prevent unlawful activity; and</span>
-                    </h3></li>
-                    <li class="c2"><h3 style="display:inline"><span class="c0">to other third parties if you have specifically consented to us doing so.</span>
-                    </h3></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1" start="2">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We may disclose aggregated, anonymous information (i.e. information from which you cannot be personally identified), or insights based on such anonymous information, to selected third parties, including (without limitation) analytics and search engine providers to assist us in the improvement and optimisation of the Website. In such circumstances we do not disclose any information which can identify you personally.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">If our whole business is sold or integrated with another business your Data may be disclosed to our advisers and any prospective purchasers and their advisers and will be passed on to the new owners of the business.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="9">
-                    <li class="c4 c10" id="h.3o7alnk"><span class="c6 c5">Keeping your Data secure</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We will use technical and organizational measures in accordance with good industry practice to safeguard your Data, including the use of strong data encryption.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">While we will use all reasonable efforts to safeguard your Data, you acknowledge that the use of the internet is not entirely secure and for this reason we cannot guarantee the security or integrity of any Data that is transferred from you or to you via the internet.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="10">
-                    <li class="c4 c10" id="h.23ckvvd"><span class="c6 c5">Monitoring</span></li>
-                </ol>
-                <h3 class="c9 c15"><span class="c0">We may monitor and record communications with you (such as telephone conversations and emails) for the purposes of provision of services, quality assurance, training, fraud prevention and compliance purposes. Any information that we receive through such monitoring and communication will be added to the information we already hold about you and may also be used for the purposes listed in clause 10 above.</span>
-                </h3>
-                <ol class="c1 lst-kix_list_3-0" start="11">
-                    <li class="c4 c10" id="h.ihv636"><span class="c6 c5">Overseas transfers (EEA Users only)</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span>From time to time we may need to transfer your Data to countries outside the European Economic Area, which comprises the EU member states plus Norway, Iceland and Liechtenstein (“</span><span
-                            class="c5">EEA</span><span class="c0">”). Non-EEA countries that we may need to transfer your Data to include the United States of America, because we are primarily based there.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">Such countries may not have similar protections in place regarding protection and use of your data as those set out in this Policy. Therefore, if we do transfer your Data to countries outside the EEA we will take reasonable steps in accordance with applicable Privacy and Data Protection Requirements to ensure adequate protections are in place to ensure the security of your Data, including:</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-2 start" start="1">
-                    <li class="c2"><h2 style="display:inline"><span
-                            class="c0">use of approved contractual clauses; and</span></h2></li>
-                    <li class="c2"><h2 style="display:inline"><span>ensuring that we only transfer your Data to persons or entities that are appropriately authorized and/or accredited to process Personal Data in compliance with applicable Privacy and Data Protection Requirements.</span><span
-                            class="c12 c22">&nbsp;</span></h2></li>
-                    <li class="c2"><h2 style="display:inline"><span class="c0">By submitting your Data to us in accordance with this Policy you consent to these transfers for the purposes specified in this Policy.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="12">
-                    <li class="c4 c10"><span class="c6 c5">Information about other individuals</span></li>
-                </ol>
-                <h2 class="c9 c15"><span class="c0">If you give us information on behalf of a third party, you confirm that the third party has appointed you to act on his/her/their behalf and has agreed that you can: give consent on his/her/their behalf to the processing of his/her/their Data; receive on his/her/their behalf any data protection notices; and give consent to the transfer of his/her/their Data abroad (if applicable).</span>
-                </h2>
-                <ol class="c1 lst-kix_list_3-0" start="13">
-                    <li class="c4 c10" id="h.32hioqz"><span class="c6 c5">Your rights</span></li>
-                </ol>
-                <h2 class="c9 c15"><span class="c0">If you are an individual, this section sets out your legal rights in respect of any of your Personal Data that we are holding and/or processing. If you wish to exercise any of your legal rights you should put your request in writing to us (using our contact details in clause 28 below) giving us enough information to identify you and respond to your request.</span>
-                </h2>
-                <ol class="c1 lst-kix_list_3-1" start="3">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right to request access to information about Personal Data that we may hold and/or process about you, including: whether or not we are holding and/or processing your Personal Data; the extent of the Personal Data we are holding; and the purposes and extent of the processing.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right to have any inaccurate information we hold about you be rectified and/or updated. If any of the Data that you have provided changes, or if you become aware of any inaccuracies in such Data, please let us know in writing giving us enough information deal with the change or correction.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right in certain circumstances to request that we delete all Personal Data we hold about you (the ‘right of erasure’). Please note that this right of erasure is not available in all circumstances, for example where we need to retain the Personal Data for legal compliance purposes. If this is the case, we will let you know.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right in certain circumstances to request that we restrict the processing of your Personal Data, for example where the Personal Data is inaccurate or where you have objected to the processing (see clause 20.6 below).</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right to request a copy of the Personal Data we hold about you and to have it provided in a structured format suitable for you to be able to transfer it to a different data controller (the ‘right to data portability’). Please note that the right to data portability is only available in some circumstances, for example where the processing is carried out by automated means. If you request the right to data portability and it is not available to you we will let you know.</span>
-                    </h2></li>
-                    <li class="c4"><h2 id="h.1hmsyys" style="display:inline"><span class="c0">You have the right in certain circumstances to object to the processing of your Personal Data. If so, we shall stop processing your Personal Data unless we can demonstrate sufficient and compelling legitimate grounds for continuing the processing which override your own interests. If, as a result of your circumstances, you do not have the right to object to such processing then we will let you know.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right in certain circumstances not to be subject to a decision based solely on automated processing, for example where a computer algorithm (rather than a person) makes decisions which affect your contractual rights. Please note that this right is not available in all circumstances. If you request this right and it is not available to you we will let you know.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">You have the right to object to direct marketing, for which see clause 12.2 above.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="14">
-                    <li class="c4"><h2 style="display:inline"><span class="c6 c5">Complaints</span></h2></li>
-                </ol>
-                <h2 class="c9 c15"><span>If you have any concerns about how we collect or process your Data then you have the right to lodge a complaint with a supervisory authority, which for the UK is the UK Information Commissioner’s Office (“</span><span
-                        class="c5">ICO</span><span>”), and for the US is the U.S. Federal Trade Commission (FTC) or other state authority. Complaints can be submitted to the ICO through the ICO helpline by calling 0303 123 1113. Further information about reporting concerns to the ICO is available at </span><span
-                        class="c7"><a class="c14"
-                                      href="https://www.google.com/url?q=https://ico.org.uk/concerns/&amp;sa=D&amp;ust=1525147550780000">https://ico.org.uk/concerns/</a></span><span
-                        class="c0">.</span></h2>
-                <ol class="c1 lst-kix_list_3-0" start="15">
-                    <li class="c4 c10" id="h.41mghml"><span class="c6 c5">‘Cookies’ and related software</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">Our software may issue ‘cookies’ (small text files) to your device when you access and use the Website and you will be asked to consent to this at the time (e.g. when you first visit our website). Cookies do not affect your privacy and security since a cookie cannot read data off your Website or read cookie files created by other sites.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">Our Website uses cookies and other tracking and monitoring software to: distinguish our users from one another; collect standard Internet log information; and to collect visitor behavior information. The information is used to track user interactions with the Website and allows us to provide you with a good experience when you access the Website, helps us to improve our Website, and allows us to compile statistical reports on Website visitors and Website activity.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span>You can set your Website not to accept cookies if you wish (for example by changing your browser settings so cookies are not accepted), however please note that some of our Website features may not function if you remove cookies from your Website. For further general information about cookies please visit </span><span
-                            class="c7 c19"><a class="c14"
-                                              href="https://www.google.com/url?q=http://www.aboutcookies.org&amp;sa=D&amp;ust=1525147550781000">www.aboutcookies.org</a></span><span>&nbsp;or </span><span
-                            class="c7 c19"><a class="c14"
-                                              href="https://www.google.com/url?q=http://www.allaboutcookies.org&amp;sa=D&amp;ust=1525147550781000">www.allaboutcookies.org</a></span><span
-                            class="c0">. </span></h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="16">
-                    <li class="c4 c10" id="h.2grqrue"><span class="c6 c5">Changes to this Policy</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><h2 style="display:inline"><span class="c0">We keep this Policy under regular review and may change it from time to time. If we change this Policy we will post the changes on this page, and place notices on other pages of the Website as applicable, so that you may be aware of the Data we collect and how we use it at all times. You are responsible for ensuring that you are aware of the most recent version this Policy as it will apply each time you access the Website.</span>
-                    </h2></li>
-                    <li class="c4"><h2 style="display:inline"><span class="c0">This Policy was last updated on 05/01/2018.</span>
-                    </h2></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="17">
-                    <li class="c4 c10"><span class="c6 c5">Links to other websites</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4 c10"><span class="c0">Our Website may contain links to other websites. This Policy only applies to our Website. If you access links to other websites any Data you provide to them will be subject to the privacy policies of those other websites.</span>
-                    </li>
-                    <li class="c4 c10"><span class="c0">We have no control over third party websites or systems and accept no legal responsibility for any content, material or information contained in them. Your use of third party sites or systems will be governed by the terms and conditions of that third party. It is your responsibility to ensure you are happy with such third party terms and conditions.</span>
-                    </li>
-                    <li class="c4 c10"><span class="c0">The display of any hyperlink and/or reference to any third party website, system, product or service does not mean that we endorse that third party's website, products or services and any reliance you place on such hyperlink, reference or advert is done at your own risk.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="18">
-                    <li class="c4"><span class="c6 c5">Limitation of our liability</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4" id="h.vx1227"><span class="c0">Nothing in these terms and conditions excludes or limits our liability for death or personal injury arising from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be lawfully excluded or limited.</span>
-                    </li>
-                    <li class="c4"><span class="c0">Subject to clause 25.1, and to the extent permitted by law, we exclude all conditions, warranties and/or representations, whether express or implied, which may apply to the Website and/or any information contained or displayed within the Website.</span>
-                    </li>
-                    <li class="c4"><span class="c0">Subject to clause 25.1, we will not be liable to any user of the Website for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with the use of, or inability to use, the Website, or with reliance on any information contained or displayed within the Website. In particular, we will not be liable for any business interruption, for any loss of profits, sales, business, revenue, anticipated savings, business opportunity, goodwill or reputation, or for any indirect or consequential loss or damage.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="19">
-                    <li class="c4"><span class="c6 c5">Viruses</span></li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-1 start" start="1">
-                    <li class="c4"><span class="c0">We do not guarantee that the Website will be secure or free from bugs or viruses. You are responsible for configuring your device in order to access the Website and you should use your own virus protection software. We will not be liable for any loss or damage caused by a virus or any other technologically harmful material that may infect you due to your use of the Website.</span>
-                    </li>
-                </ol>
-                <ol class="c1 lst-kix_list_3-0" start="20">
-                    <li class="c4 c10"><span class="c6 c5">Accessibility</span></li>
-                </ol>
-                <h2 class="c9 c15"><span>This Policy aims to provide you with all relevant details about how we process your Data in a concise, transparent, intelligible and easily accessible form, using clear and plain language. If you have any difficulty in reading or understanding this Policy, or if you would like this </span><a
-                        id="id.3fwokq0"></a><a id="id.1v1yuxt"></a><span class="c0">Policy in another format (for example audio, large print or braille), please get in touch with us.</span>
-                </h2>
-                <ol class="c1 lst-kix_list_3-0" start="21">
-                    <li class="c4"><h2 style="display:inline"><span class="c6 c5">Notice to End Users</span></h2></li>
-                </ol>
-                <h2 class="c9 c15" id="h.4f1mdlm"><span class="c0">Many of our products are intended for use by organizations. Where the Services are made available to you through an organization (e.g. your employer), that organization is the administrator of the Services and is responsible for the accounts and/or Service sites over which it has control. If this is the case, please direct your data privacy questions to your administrator, as your use of the Services is subject to that organization's policies. We are not responsible for the privacy or security practices of an administrator's organization, which may be different than this policy. </span>
-                </h2>
-                <h2 class="c9 c15"><span class="c0">Administrators are able to:</span></h2>
-                <ul class="c1 lst-kix_list_5-0 start">
-                    <li class="c3"><h2 style="display:inline"><span class="c0">require you to reset your account password;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">restrict, suspend or terminate your access to the Services;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">access information in and about your account;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">access or retain information stored as part of your account;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">install or uninstall third-party apps or other integrations </span>
-                    </h2></li>
+                <p>4. <strong>Your consent to processing</strong></p>
+                <p>4.1. As noted above, you will be required to give consent to certain processing activities before we can process your Data as set out in this Policy. Where applicable, we will seek this consent from you when you first submit Data to or through the Website.</p>
+                <p>4.2. If you have previously given consent you may freely withdraw such consent at any time. You can do this through your account on the Website or by notifying us in writing (see clause 28 below).</p>
+                <p>4.3. If you withdraw your consent, and if we do not have another legal basis for processing your information (see clause 10 above), then we will stop processing your Data. If we do have another legal basis for processing your information then we may continue to do so subject to your legal rights (for which see clause 20 below).</p>
+                <p>4.4. Please note that if we need to process your Data in order to operate the Website and/or provide our services, and you object or do not consent to us processing your Data, the Website and/or those services may not be available to you.</p>
+                <p><strong>5. Marketing and opting out</strong></p>
+                <p>5.1. Where you have previously ordered products or services from us we may contact you by email and post about similar or related products, services, promotions and special offers that may be of interest to you. We will inform you (during the sale process) if we intend to use your data for such purposes and give you the opportunity to opt-out of receiving such information from us. In addition, and if you have given permission, we may also contact you by email about our other products, services, promotions and special offers that may be of interest to you. We will inform you (before collecting your data) and seek your permission if we intend to use your data for such additional marketing purposes. If you prefer not to receive any direct marketing communications from us, or you no longer wish to receive them, you can opt out at any time (see below).</p>
+                <p>5.2. You have the right at any time to ask us, or any third party, to stop processing your information for direct marketing purposes. If you wish to exercise this right, you should contact us by sending an email to privacy@zeguro.co.uk, or contact the relevant third party using their given contact details, giving us or them enough information to identify you and deal with your request. Alternatively you can follow the unsubscribe instructions in emails you receive from us or them.</p>
+                <p>6. <strong>Automated decision making</strong></p>
+                <p>No automated decision making is being done at this time.</p>
+                <p>7. <strong>Customer Data</strong></p>
+                <p>7.1. You may upload data to our Website, which may include personal information or data about your end users (all of which we call "<strong>Customer Data</strong>"). ;Customer Data is owned and controlled by you, and any Customer Data that we maintain or process we consider to be strictly confidential. We collect and process Customer Data solely on behalf of you/our customers, and in accordance with our agreements with customers. We do not use or disclose Customer Data except as authorized and required by our customers and as provided for in our agreements with our customers.
+                <p>7.2. Zeguro will not be liable for any third-party costs, penalties or claims that arise from the use of Customer Data that is uploaded by you.</p>
+                <p>7.3. The Customer shall not use, and shall procure that Users do not use, Infringing Data on the Platform.</p>
+                <p>7.4. The Customer shall retain ownership of all Customer Data and all rights therein. The Customer grants a royalty-free, transferable, non-exclusive license for the term of this Agreement to the Supplier to use the Customer Data to the extent necessary to provide the platform and perform the Customer Support Services (as applicable).</p>
+                <p>7.5. The Customer acknowledges that the Supplier has no control over any Customer Data hosted as part of the provision of the Platform and, although it reserves the right to do so, the Supplier does not actively monitor the content of the Customer Data.</p>
+                <p>7.6. The Supplier shall notify the Customer immediately if it becomes aware of any allegation that any Customer Data may be Infringing Data and the Supplier shall have the right to remove such Customer Data from the Website without the need to consult the Customer.</p>
+                <p>7.7. Zeguro respects the rules and laws of the jurisdiction in which it operates, as well as the privacy and rights of its customers. Accordingly, Zeguro provides Customer Information in response to law enforcement requests only when we reasonably believe that we are legally required to do so. To protect our customers’ rights, we carefully review requests to ensure that they comply with the law. Zeguro reserves the right to disclose Customer Data to law enforcement officials in the investigation of fraud or other alleged unlawful activities, only after law enforcement officials provide legal process appropriate for the type of information sought, such as a subpoena, court order, or a warrant.</p>
+                <p>7.8. The Customer shall indemnify the Supplier from and against all loss caused to the Supplier as a result of the use by the Customer or a User of Infringing Data on the Platform.</p>
+                <p>8. <strong>Disclosure of your information</strong></p>
+                <p>8.1. We may disclose your Data (including Personal Data):</p>
+                <p>8.1.2. to carry out risk management and related services and any other obligations arising from any contracts entered into between us and our customers;</p>
+                <p>8.1.3. to investigate and address any comments, queries or complaints made by you or our customers regarding the Website;</p>
+                <p>8.1.4. to ensure that content from Website is presented in the most effective manner for you and for your device;</p>
+                <p>8.1.5. to conduct research, statistical analysis and behavioral analysis (including anonymizing data for these purposes);</p>
+                <p>8.1.6. to other companies within our group of companies (which means our subsidiaries, our ultimate holding company and its subsidiaries)</p>
+                <p>8.1,7. to our business partners, service providers or third-party contractors to enable them to undertake services for us and/or on our behalf (and we will ensure they have appropriate measures in place to protect your Data);</p>
+                <p>8.1.8. to any prospective buyer or seller (and their represenatives) in the event that we sell or buy any business or assets;</p>
+                <p>8.1.9. if we are under a duty to disclose or share Personal Data in order to comply with any legal obligation, including (but not limited to) any request or order from law enforcement agencies in connection with any investigation to help prevent unlawful activity; and</p>
+                <p>8.1.9. to other third parties if you have specifically consented to us doing so.</p>
+                <p>8.2. We may disclose aggregated, anonymous information (i.e. information from which you cannot be personally identified), or insights based on such anonymous information, to selected third parties, including (without limitation) analytics and search engine providers to assist us in the improvement and optimisation of the Website. In such circumstances we do not disclose any information which can identify you personally.</p>
+                <p>8.3. If our whole business is sold or integrated with another business your Data may be disclosed to our advisers and any prospective purchasers and their advisers and will be passed on to the new owners of the business.</p>
+                <p>9. <strong>Keeping your Data secure</strong></p>
+                <p>9.1 We will use technical and organizational measures in accordance with good industry practice to safeguard your Data, including the use of strong data encryption.</p>
+                <p>9.2 While we will use all reasonable efforts to safeguard your Data, you acknowledge that the use of the internet is not entirely secure and for this reason we cannot guarantee the security or integrity of any Data that is transferred from you or to you via the internet.</p>
+                <p>10. <strong>Monitoring</strong></p>
+                <p>10.1. We may monitor and record communications with you (such as telephone conversations and emails) for the purposes of provision of services, quality assurance, training, fraud prevention and compliance purposes. Any information that we receive through such monitoring and communication will be added to the information we already hold about you and may also be used for the purposes listed in clause 10 above.</p>
+                <p>11. <strong>Overseas transfers (EEA Users only)</strong></p>
+                <p>11.1. <strong>From time to time we may need to transfer your Data to countries outside the European Economic Area, which comprises the EU member states plus Norway, Iceland and Liechtenstein (“EEA”)</strong>. Non-EEA countries that we may need to transfer your Data to include the United States of America, because we are primarily based there.</p>
+                <p>11.2. Such countries may not have similar protections in place regarding protection and use of your data as those set out in this Policy. Therefore, if we do transfer your Data to countries outside the EEA we will take reasonable steps in accordance with applicable Privacy and Data Protection Requirements to ensure adequate protections are in place to ensure the security of your Data, including:</p>
+                <p style="margin-left:30px;">11.2.1. use of approved contractual clauses; and</p>
+                <p style="margin-left:30px;">11.2.2. <strong>ensuring that we only transfer your Data to persons or entities that are appropriately authorized and/or accredited to process Personal Data in compliance with applicable Privacy and Data Protection Requirements.</strong></p>
+                <p style="margin-left:30px;">11.2.3. By submitting your Data to us in accordance with this Policy you consent to these transfers for the purposes specified in this Policy.</p>
+                <p>12. Information about other individuals</p>
+                <p>If you give us information on behalf of a third party, you confirm that the third party has appointed you to act on his/her/their behalf and has agreed that you can: give consent on his/her/their behalf to the processing of his/her/their Data; receive on his/her/their behalf any data protection notices; and give consent to the transfer of his/her/their Data abroad (if applicable).</p>
+                <p>13. <strong>Your rights</strong></p>
+                <p>If you are an individual, this section sets out your legal rights in respect of any of your Personal Data that we are holding and/or processing. If you wish to exercise any of your legal rights you should put your request in writing to us (using our contact details in clause 28 below) giving us enough information to identify you and respond to your request.</p>
+                <p>13.3. You have the right to request access to information about Personal Data that we may hold and/or process about you, including: whether or not we are holding and/or processing your Personal Data; the extent of the Personal Data we are holding; and the purposes and extent of the processing.</p>
+                <p>13.4. You have the right to have any inaccurate information we hold about you be rectified and/or updated. If any of the Data that you have provided changes, or if you become aware of any inaccuracies in such Data, please let us know in writing giving us enough information deal with the change or correction.</p>
+                <p>13.5. You have the right in certain circumstances to request that we delete all Personal Data we hold about you (the ‘right of erasure’). Please note that this right of erasure is not available in all circumstances, for example where we need to retain the Personal Data for legal compliance purposes. If this is the case, we will let you know.</p>
+                <p>13.6. You have the right in certain circumstances to request that we restrict the processing of your Personal Data, for example where the Personal Data is inaccurate or where you have objected to the processing (see clause 20.6 below).</p>
+                <p>13.7. You have the right to request a copy of the Personal Data we hold about you and to have it provided in a structured format suitable for you to be able to transfer it to a different data controller (the ‘right to data portability’). Please note that the right to data portability is only available in some circumstances, for example where the processing is carried out by automated means. If you request the right to data portability and it is not available to you we will let you know.</p>
+                <p>13.8. You have the right in certain circumstances to object to the processing of your Personal Data. If so, we shall stop processing your Personal Data unless we can demonstrate sufficient and compelling legitimate grounds for continuing the processing which override your own interests. If, as a result of your circumstances, you do not have the right to object to such processing then we will let you know.</p>
+                <p>13.9. You have the right in certain circumstances not to be subject to a decision based solely on automated processing, for example where a computer algorithm (rather than a person) makes decisions which affect your contractual rights. Please note that this right is not available in all circumstances. If you request this right and it is not available to you we will let you know.</p>
+                <p>13.10. You have the right to object to direct marketing, for which see clause 12.2 above.</p>
+                <p>14. <strong>Complaints</strong></p>
+                <p><strong>If you have any concerns about how we collect or process your Data then you have the right to lodge a complaint with a supervisory authority, which for the UK is the UK Information Commissioner’s Office ("ICO"), and for the US is the U.S. Federal Trade Commission (FTC) or other state authority. Complaints can be submitted to the ICO through the ICO helpline by calling 0303 123 1113. Further information about reporting concerns to the ICO is available at <a href="https://ico.org.uk/concerns/">https://ico.org.uk/concerns/</a>.</strong></p>
+                <p>15. <strong>‘Cookies’ and related software</strong></p>
+                <p>15.1. Our software may issue ‘cookies’ (small text files) to your device when you access and use the Website and you will be asked to consent to this at the time (e.g. when you first visit our website). Cookies do not affect your privacy and security since a cookie cannot read data off your Website or read cookie files created by other sites.</p>
+                <p>15.2. Our Website uses cookies and other tracking and monitoring software to: distinguish our users from one another; collect standard Internet log information; and to collect visitor behavior information. The information is used to track user interactions with the Website and allows us to provide you with a good experience when you access the Website, helps us to improve our Website, and allows us to compile statistical reports on Website visitors and Website activity.</p>
+                <p>15.3. You can set your Website not to accept cookies if you wish (for example by changing your browser settings so cookies are not accepted), however please note that some of our Website features may not function if you remove cookies from your Website. For further general information about cookies please visit <a href="http://www.aboutcookies.org">www.aboutcookies.org</a> or <a href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>. </p>
+                <p>16. Changes to this Policy</p>
+                <p>16.1. We keep this Policy under regular review and may change it from time to time. If we change this Policy we will post the changes on this page, and place notices on other pages of the Website as applicable, so that you may be aware of the Data we collect and how we use it at all times. You are responsible for ensuring that you are aware of the most recent version this Policy as it will apply each time you access the Website.</p>
+                <p>16.2. This Policy was last updated on 05/01/2018.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>17. <strong>Links to other websites</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>17. Our Website may contain links to other websites. This Policy only applies to our Website. If you access links to other websites any Data you provide to them will be subject to the privacy policies of those other websites.</p>
+                <p>17.1. We have no control over third party websites or systems and accept no legal responsibility for any content, material or information contained in them. Your use of third party sites or systems will be governed by the terms and conditions of that third party. It is your responsibility to ensure you are happy with such third party terms and conditions.</p>
+                <p>17.2. The display of any hyperlink and/or reference to any third party website, system, product or service does not mean that we endorse that third party's website, products or services and any reliance you place on such hyperlink, reference or advert is done at your own risk.</p>
+                <p>18. <strong>Limitation of our liability</strong></p>
+                <p>18.1. Nothing in these terms and conditions excludes or limits our liability for death or personal injury arising from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be lawfully excluded or limited.</p>
+                <p>18.2. Subject to clause 25.1, and to the extent permitted by law, we exclude all conditions, warranties and/or representations, whether express or implied, which may apply to the Website and/or any information contained or displayed within the Website.</p>
+                <p>18.3. Subject to clause 25.1, we will not be liable to any user of the Website for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with the use of, or inability to use, the Website, or with reliance on any information contained or displayed within the Website. In particular, we will not be liable for any business interruption, for any loss of profits, sales, business, revenue, anticipated savings, business opportunity, goodwill or reputation, or for any indirect or consequential loss or damage.</p>
+                <p>19. <strong>Viruses</strong></p>
+                <p>19.1. We do not guarantee that the Website will be secure or free from bugs or viruses. You are responsible for configuring your device in order to access the Website and you should use your own virus protection software. We will not be liable for any loss or damage caused by a virus or any other technologically harmful material that may infect you due to your use of the Website.</p>
+                <p>20. <strong>Accessibility</strong></p>
+                <p><strong>This Policy aims to provide you with all relevant details about how we process your Data in a concise, transparent, intelligible and easily accessible form, using clear and plain language. If you have any difficulty in reading or understanding this Policy, or if you would like this Policy in another format (for example audio, large print or braille), please get in touch with us.</strong></p>
+                <p>21. <strong>Notice to End Users</strong></p>
+                <p>Many of our products are intended for use by organizations. Where the Services are made available to you through an organization (e.g. your employer), that organization is the administrator of the Services and is responsible for the accounts and/or Service sites over which it has control. If this is the case, please direct your data privacy questions to your administrator, as your use of the Services is subject to that organization's policies. We are not responsible for the privacy or security practices of an administrator's organization, which may be different than this policy.</p>
+                <p>Administrators are able to: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <ul style="width:100%;">
+                    <li style="padding-left:30px;">require you to reset your account password;</li>
+                    <li style="padding-left:30px;">restrict, suspend or terminate your access to the Services;</li>
+                    <li style="padding-left:30px;">access information in and about your account;</li>
+                    <li style="padding-left:30px;">access or retain information stored as part of your account;</li>
+                    <li style="padding-left:30px;">install or uninstall third-party apps or other integrations</li>
+                    <li style="padding-left:30px;">In some cases, administrators can also:</li>
                 </ul>
-                <h2 class="c9 c15"><span class="c0">In some cases, administrators can also:</span></h2>
-                <ul class="c1 lst-kix_list_6-0 start">
-                    <li class="c3"><h2 style="display:inline"><span class="c0">restrict, suspend or terminate your account access;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">change the email address associated with your account;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">change your information, including profile information;</span>
-                    </h2></li>
-                    <li class="c3"><h2 style="display:inline"><span class="c0">restrict your ability to edit, restrict, modify or delete information</span>
-                    </h2></li>
+                <ul>
+                    <li style="padding-left:30px;">restrict, suspend or terminate your account access;</li>
+                    <li style="padding-left:30px;">change the email address associated with your account;</li>
+                    <li style="padding-left:30px;">change your information, including profile information;</li>
+                    <li style="padding-left:30px;">restrict your ability to edit, restrict, modify or delete information</li>
                 </ul>
-                <h2 class="c9 c15"><span class="c0">Even if the Services are not currently administered to you by an organization, if you use an email address provided by an organization (such as your work email address) to access the Services, then the owner of the domain associated with your email address (e.g. your employer) may assert administrative control over your account and use of the Services at a later date. &nbsp;You will be notified if this happens. </span>
-                </h2>
-                <h2 class="c9 c15"><span class="c0">If you do not want an administrator to be able to assert control over your account or use of the Services, use your personal email address to register for or access the Services. &nbsp;If an administrator has not already asserted control over your account or access to the Services, you can update the email address associated with your account through your account settings in your profile. &nbsp;Once an administrator asserts control over your account or use of the Services, you will no longer be able to change the email address associated with your account without administrator approval.</span>
-                </h2>
-                <h2 class="c9 c15"><span class="c0">Please contact your organization or refer to your administrator’s organizational policies for more information.</span>
-                </h2>
-                <ol class="c1 lst-kix_list_3-0" start="22">
-                    <li class="c4 c10" id="h.2u6wntf"><span class="c6 c5">Contact us</span></li>
-                </ol>
-                <h2 class="c9 c15"><span class="c0">We welcome your feedback and questions on this Policy. If you wish to contact us, please email us at privacy@zeguro.com or call US: +1 (855)980-0660 or UK: +44 203 473 3800.</span>
-                </h2>
-                <h2 class="c9 c15 c20"><span class="c0"></span></h2>
-                <div><p class="c13"><span class="c0"></span></p>
-                    <p class="c13"><span class="c0"></span></p></div>
--->
-
+                <p>Even if the Services are not currently administered to you by an organization, if you use an email address provided by an organization (such as your work email address) to access the Services, then the owner of the domain associated with your email address (e.g. your employer) may assert administrative control over your account and use of the Services at a later date. &nbsp;You will be notified if this happens. </p>
+                <p>If you do not want an administrator to be able to assert control over your account or use of the Services, use your personal email address to register for or access the Services. &nbsp;If an administrator has not already asserted control over your account or access to the Services, you can update the email address associated with your account through your account settings in your profile. &nbsp;Once an administrator asserts control over your account or use of the Services, you will no longer be able to change the email address associated with your account without administrator approval.</p>
+                <p>Please contact your organization or refer to your administrator’s organizational policies for more information.</p>
+                <p>22. <strong>Contact us</strong></p>
+                <p>We welcome your feedback and questions on this Policy. If you wish to contact us, please email us at privacy@zeguro.com or call US: <a href="tel:18559800660">+1 (855)980-0660</a> or UK: <a href="tel:442034733800">+44 203 473 3800</a>.</p>
             </div>
         </div>
     </div>
@@ -643,7 +344,7 @@
                     <ul>
                         <li>
                             <a href="index.html"><img src="img/svg/zeguro_horizontal_bw.svg" width="178px"/></a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -652,7 +353,7 @@
                         <li>
                             <img src="img/map_pin.jpg"/>
                             123 Mission St, Level 16<br/> San Fransisco, CA 94111
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -661,7 +362,7 @@
                         <li>
                             <img src="img/phone.jpg"/>
                             <a href="tel:8559800660">855.980.0660</a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -670,7 +371,7 @@
                         <li>
                             <img src="img/email.jpg"/>
                             <a href="mailto:hello@zeguro.com">hello@zeguro.com</a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -680,7 +381,7 @@
                             <a href="https://www.facebook.com/zeguroinc/" target="_blank"><img src="img/fb_logo.jpg" /></a>
                             <a href="https://twitter.com/Zeguroinc/" target="_blank"><img src="img/twitter_logo.jpg" /></a>
                             <a href="https://www.linkedin.com/company/7965652/" target="_blank"><img src="img/linkedin_logo.jpg" /></a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -696,42 +397,42 @@
             <div class="row">
                 <div class="module col-md-2">
                     <ul>
-                        <li><a href="https://app.zeguro.com/">Login</a></li>
-                        <li><a href="index.html" class="pink_color">Home</a></li>
+                        <li><a href="https://app.zeguro.com/">Login</a>
+                        <li><a href="index.html" class="pink_color">Home</a>
                         <li><a href="small-medium-enterprises.html" class="orange_color">Small / Medium Enterprises</a>
-                        </li>
+                        
                     </ul>
                 </div>
 
                 <div class="module col-md-2">
                     <ul>
-                        <li><a href="large-enterprise.html" class="orange_color">Large Enterprise</a></li>
-                        <li><a href="partner-with-zeguro.html" class="orange_color">Channel Partners</a></li>
-                        <li><a href="coming-soon.html" class="green_color">Coverages</a></li>
+                        <li><a href="large-enterprise.html" class="orange_color">Large Enterprise</a>
+                        <li><a href="partner-with-zeguro.html" class="orange_color">Channel Partners</a>
+                        <li><a href="coming-soon.html" class="green_color">Coverages</a>
                     </ul>
                 </div>
 
                 <div class="module col-md-2">
                     <ul>
-                        <li><a href="coming-soon.html" class="green_color">Claims</a></li>
-                        <li><a href="about-us.html#team" class="blue_color">Team</a></li>
-                        <li><a href="about-us.html#news" class="blue_color">News</a></li>
+                        <li><a href="coming-soon.html" class="green_color">Claims</a>
+                        <li><a href="about-us.html#team" class="blue_color">Team</a>
+                        <li><a href="about-us.html#news" class="blue_color">News</a>
                     </ul>
                 </div>
 
                 <div class="module col-md-2">
                     <ul>
-                        <li><a href="about-us.html/#careers" class="blue_color">Careers</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li><a href="coming-soon.html">FAQ</a></li>
+                        <li><a href="about-us.html/#careers" class="blue_color">Careers</a>
+                        <li><a href="contact-us.html">Contact Us</a>
+                        <li><a href="coming-soon.html">FAQ</a>
                     </ul>
                 </div>
 
                 <div class="module col-md-2">
                     <ul>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                        <li><a href="coming-soon.html">Licenses</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a>
+                        <li><a href="terms.html">Terms of Service</a>
+                        <li><a href="coming-soon.html">Licenses</a>
                     </ul>
                 </div>
             </div>
