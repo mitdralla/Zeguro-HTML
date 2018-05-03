@@ -1270,6 +1270,10 @@ button a:hover {
     padding-bottom: 5px;
 }
 
+.bio_module a span:hover {
+    color: #9c1f93 !important;
+}
+
 
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/
