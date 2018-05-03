@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e380e87a-44de-4e46-9c95-0fab4f342ba4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/small-medium-enterprises.html" afterPath="$PROJECT_DIR$/small-medium-enterprises.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -64,11 +63,11 @@
       <file leaf-file-name="small-medium-enterprises.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/small-medium-enterprises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="233" column="84" lean-forward="true" selection-start-line="233" selection-start-column="84" selection-end-line="233" selection-end-column="84" />
+            <state relative-caret-position="317">
+              <caret line="225" column="16" lean-forward="true" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1525375556015" expanded="true" signature="19012:19076" ph="..." />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1525383772484" expanded="true" signature="18676:18740" ph="..." />
               </folding>
             </state>
           </provider>
@@ -258,12 +257,12 @@
       <updated>1523157335449</updated>
       <workItem from="1523157338943" duration="3000" />
       <workItem from="1523157669345" duration="36588000" />
-      <workItem from="1524754266685" duration="58992000" />
+      <workItem from="1524754266685" duration="59157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95583000" />
+    <option name="totallyTimeSpent" value="95748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1653" height="970" extended-state="0" />
@@ -691,11 +690,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/small-medium-enterprises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="233" column="84" lean-forward="true" selection-start-line="233" selection-start-column="84" selection-end-line="233" selection-end-column="84" />
+        <state relative-caret-position="317">
+          <caret line="225" column="16" lean-forward="true" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1525375556015" expanded="true" signature="19012:19076" ph="..." />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1525383772484" expanded="true" signature="18676:18740" ph="..." />
           </folding>
         </state>
       </provider>
