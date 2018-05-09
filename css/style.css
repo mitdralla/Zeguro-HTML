@@ -1515,6 +1515,8 @@ p {
     }
 }
 
+
+
 .umbrella_rain {
     left: 0 !important;
     right: 0 !important;
@@ -1535,6 +1537,45 @@ p {
 .green_page button:hover {
     background-color: #87bd30 !important;
 }
+
+.zeguro_in li.one:after {
+    content: url(/img/dots.png);
+    top: 0 !important;
+    float: right;
+    margin-top: -412px;
+    margin-right: -64px !important;
+}
+
+.zeguro_in li.two:after {
+    content: url(/img/dots.png);
+    top: 0 !important;
+    float: right;
+    margin-top: -502px;
+    margin-right: -64px !important;
+}
+
+.zeguro_in li.three:after {
+    content: url(/img/dots.png);
+    top: 0 !important;
+    float: right;
+    margin-top: -469px;
+    margin-right: -64px !important;
+}
+
+@media (max-width: 1197px) {
+    .zeguro_in li.one:after {
+        content: "";
+    }
+
+    .zeguro_in li.two:after {
+        content: "";
+    }
+
+    .zeguro_in li.three:after {
+        content: "";
+    }
+}
+
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/
 /*}*/
