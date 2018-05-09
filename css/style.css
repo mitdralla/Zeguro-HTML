@@ -231,10 +231,12 @@ ul.emptyli{padding:0  !important;}
     width: 100px !important;
     font-weight: bold;
     color: #333;
+    border-width: 2px;
+    border-style: solid;
 
-    border: 2px solid transparent;
     border-image: linear-gradient(90deg,  rgba(60,57,146,1) 10%, rgba(239,60,150,1));
     border-image-slice: 1;
+
 }
 .login_button:hover {background: linear-gradient(90deg,  rgba(60,57,146,1) 10%, rgba(239,60,150,1));}
 .login_button:hover a{color:#fff;}
@@ -351,7 +353,7 @@ ul.emptyli{padding:0  !important;}
     text-align: center;
     justify-content: center;
     align-items: center;
-    min-height: 750px;
+    min-height: 825px;
     margin-bottom: 50px;
 }
 
@@ -1122,8 +1124,10 @@ button a:hover {
         margin: 0 auto;
         text-align: left;
         padding-left: 10px !important;
+    }
 
-
+    .zeguro_four ul li {
+        width:100% !important;
     }
 
     .nav_wrapper li ul:before {
@@ -1177,6 +1181,7 @@ button a:hover {
         background: transparent;
     }
 
+
     .login_button {
         width: 100% !important;
         margin-top: 20px !important;
@@ -1185,6 +1190,7 @@ button a:hover {
         border-image: linear-gradient(90deg, rgba(60,57,146,1) 10%, rgba(239,60,150,1));
         border-image-slice: 1;
     }
+
 
     .boilerimage {
         width: 80% !important;
@@ -1299,6 +1305,64 @@ button a:hover {
 
 .assess {
     padding: 50px 0 20px !important;
+}
+
+.col_img img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.zeguro_four  ul li {
+    width: 25% !important;
+    display: inline-block;
+    text-align: left;
+    padding: 0 10px 0 30px;
+}
+
+.zeguro_four ul {
+    max-width:1200px !important;
+}
+
+@media (max-width: 767px) {
+
+
+    .zeguro_four ul li {
+        width: 100% !important;
+        margin-bottom:30px;
+    }
+}
+
+.zeguro_four ul li p.one:before {
+    content: "1) ";
+    margin-left:-30px;
+    font-family: GraphieSemiBold;
+}
+
+.zeguro_four ul li p.two:before {
+    content: "2) ";
+    margin-left:-30px;
+    font-family: GraphieSemiBold;
+}
+
+.zeguro_four ul li p.three:before {
+    content: "3) ";
+    margin-left:-30px;
+    font-family: GraphieSemiBold;
+}
+
+.zeguro_four ul li p.four:before {
+    content: "4) ";
+    margin-left:-30px;
+    font-family: GraphieSemiBold;
+}
+
+h2 {
+    letter-spacing: 1px !important;
+}
+
+
+p {
+    letter-spacing: 1px !important;
 }
 
 
