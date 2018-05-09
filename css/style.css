@@ -1313,6 +1313,14 @@ button a:hover {
     .umbrella_top {
         margin-top:0px;
     }
+
+    .empowerment li {
+        letter-spacing: 1px !important;
+    }
+
+    .hero_wrapper h2 {
+        line-height: 30px;
+    }
 }
 
 .bio_module a:hover {
@@ -1520,6 +1528,10 @@ p {
 
 .umbrella_bottom {
     margin-left:38px !important;
+}
+
+.green_page button:hover {
+    background-color: #87bd30 !important;
 }
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/
