@@ -1305,6 +1305,14 @@ button a:hover {
     .coverages_bold {
         border: none !important;
     }
+
+    .umbrella_rain {
+        display:none;
+    }
+
+    .umbrella_top {
+        margin-top:0px;
+    }
 }
 
 .bio_module a:hover {
@@ -1495,6 +1503,23 @@ p {
     .col-sm-12 {
         border: none !important;
     }
+}
+
+.umbrella_rain {
+    left: 0 !important;
+    right: 0 !important;
+    position: absolute;
+    margin-top: -20px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.umbrella_top {
+   margin-top:30px !important;
+}
+
+.umbrella_bottom {
+    margin-left:38px !important;
 }
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/

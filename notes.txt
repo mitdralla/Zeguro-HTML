@@ -1,1 +1,14 @@
 
+<!--
+    <button class="btn btn-success btn-lg video" data-video="https://www.youtube.com/embed/lDvncJdfzmY" data-toggle="modal" data-target="#videoModal">Play Video 1</button>
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
