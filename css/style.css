@@ -1481,6 +1481,9 @@ p {
 .coverages_list li {
     color: #000;
     list-style-type: none;
+    list-style-position: inside;
+    text-indent: -33px;
+    padding-left: 31px;
 }
 
 .coverages_list li:before {
