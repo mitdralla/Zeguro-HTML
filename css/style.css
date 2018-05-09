@@ -466,6 +466,18 @@ button:hover {
     width: 100%;
 }
 
+.coverages_foot {
+    background-image: url('../img/zeguro_coverages_photo.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 375px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:90px;
+    width: 100%;
+}
+
 .full_cta {
     background-image: url('../img/cta_bg.jpg');
     background-size: cover;
@@ -1363,6 +1375,27 @@ h2 {
 
 p {
     letter-spacing: 1px !important;
+}
+
+.cyber p {
+    line-height: 32px;
+}
+
+.coverage_module img {
+    text-align: center !important;
+    margin: 0 auto !important;
+    float:none !important;
+    display:block;
+}
+
+.coverage_module h4 {
+    text-align: left !important;
+    float:none !important;
+    display:block;
+}
+
+.coverage_module p {
+    padding-left:0px;
 }
 
 
