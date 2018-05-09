@@ -1062,7 +1062,7 @@ button a:hover {
 
 .lep, .cyber p {
     font-family: GraphieSemiBold !important;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #fff !important;
     font-weight: 600 !important;
@@ -1136,6 +1136,10 @@ button a:hover {
         margin: 0 auto;
         text-align: left;
         padding-left: 10px !important;
+    }
+
+    .le_hero .module {
+        width: 100% !important;
     }
 
     .zeguro_four ul li {
@@ -1398,6 +1402,25 @@ p {
     padding-left:0px;
 }
 
+.cyber_in h1 {
+    font-size:35px;
+}
+
+.cyber_in p {
+    font-size: 20px !important;
+}
+
+.asses p {
+    font-size: 20px !important;
+}
+
+
+
+@media (max-width: 479px) {
+    .cyber_in h1 {
+        font-size: 24px;
+    }
+}
 
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/

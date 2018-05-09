@@ -312,3 +312,12 @@ padding: 36px 15px 45px !important;
     border:2px solid #ff05a1 !important;
     color: #fff;
 }
+
+.zeguro_main p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.help p {
+    font-size:20px;
+}

@@ -38,7 +38,6 @@
     .nav_wrapper li ul li {padding: 5px 0;}
     .nav_wrapper li:hover ul li {line-height: 18px;}
     .nav_wrapper li ul li a {font-size: 12px;line-height: 14px;}
-    .empowerment li {font-size: 18px;}
     .section_wrapper {font-size: 18px;}
     .news_in {padding: 0 15px 10px;}
     .bullets_left p,.bullets_right p {min-height: 115px;}
@@ -74,7 +73,6 @@
     .hero_wrapper h1 {font-size: 30px;}
     .circles {font-size: 34px;}
     .covered h5 {font-size: 20px;}
-    .section p {font-size: 18px;}
     .covered {min-height: 930px;}
     .empowerment li {width: 49%;text-align:  center;padding: 10px 10px;vertical-align:  top;float: none;}
     .section {padding: 30px 15px;}
@@ -108,13 +106,12 @@
     .contact .bootstrap-select.btn-group .dropdown-menu li {padding: 0;}
     .contact_left form ul > li > ul > li {width: 100% !important;max-width: 100% !important;}
     .cyber_in p, .cyber_in li p { text-align: center !important; }
-
+    .full_cta { padding-top:0px !important; }
 
 }
 @media (max-width:599px){
     .hero_wrapper h1 {font-size: 24px;}
     .hero_wrapper h2 {font-size: 18px;}
-    .section p {font-size: 16px;padding: 0;}
     .covered h5 {padding: 0;}
     .circles {display: none;}
     .timeline_left {float: none;width: 100%;padding:  0;text-align:  left;}
@@ -125,27 +122,31 @@
     .cyber_in p {font-size: 20px;}
     .zeguro h2,.businees h2 {font-size: 24px;line-height: 26px;}
     .hero_wrapper,.secure_more {min-height: 490px;}
+    .footer.contact br { display:none;}
+    .module {width: 50% !important;}
+
 }
 @media (max-width:479px){
     .hero_wrapper h1 {font-size: 24px;}
     .hero_wrapper h2 {font-size: 14px;}
     .hero_wrapper button {font-size: 12px;}
     .section h2 {font-size: 24px;}
-    .section p {font-size: 16px;line-height: 22px;}
+    /*.section p {font-size: 16px;line-height: 22px;}*/
     .logos li {float: none;width: 100%;text-align: center;}
     .logos li img {margin: 0 auto;}
     .bullets_left p,.bullets_right p {font-size: 14px !important;}
-    .module {width: 100% !important;float: none;}
+    .module {width: 50% !important;}
     .container.footer.contact ul li {text-align: center;padding-bottom: 10px;}
     .footer ul li,.footer p {text-align: center;}
     .container.footer.contact ul li img {margin-top: 0;float: none;display: inline-block;}
     .cyber_in h1 {font-size: 22px;}
-    .cyber_in p,.businees p {font-size: 18px;line-height: 26px;}
     .zeguro h2,.businees h2 {font-size: 20px;line-height: 22px;}
     .get_in span {font-size: 30px;top: 40px;}
     .contact_right p,.contact_right_in ul li p,.contact_right_in ul li p a {font-size: 16px;line-height: 20px;}
     .san {padding: 10px 0;}
     .san h5 {font-size: 19px;}
+    .footer.contact br { display:none;}
+
 }
 
 @media only screen

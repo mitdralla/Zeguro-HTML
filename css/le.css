@@ -317,7 +317,7 @@ padding: 36px 15px 45px !important;
 }
 
 .assess p {
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .cyber_in p {
@@ -327,4 +327,12 @@ padding: 36px 15px 45px !important;
 
 .assess {
     padding: 50px 0 20px !important;
+}
+
+.zeguro_main p {
+    font-size: 20px;
+}
+
+.le_hero span {
+    font-size: 20px !important;
 }

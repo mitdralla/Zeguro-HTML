@@ -2,6 +2,7 @@ $(document).ready(function() {
     $(window).scroll(function(e){
         toggleBlk2();
         toggleBlk3();
+        toggleBlk4();
     })
     function toggleBlk2(){
         var offset1 = $('.blk2').offset().top;
@@ -19,6 +20,17 @@ $(document).ready(function() {
             {
                 $('.blk3').addClass('active');
             }
+        else{
+            //$('.blk3').removeClass('active');
+        }
+    }
+
+    function toggleBlk4(){
+        var offset1 = $('.blk4').offset().top;
+        if( $(window).scrollTop() > offset1-200 )
+        {
+            $('.blk4').addClass('active');
+        }
         else{
             //$('.blk3').removeClass('active');
         }
