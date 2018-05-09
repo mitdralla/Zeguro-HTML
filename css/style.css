@@ -1323,6 +1323,7 @@ button a:hover {
     .hero_wrapper h2 {
         line-height: 30px;
     }
+
 }
 
 .bio_module a:hover {
@@ -1578,6 +1579,27 @@ p {
     .zeguro_in li.three:after {
         content: "";
     }
+}
+
+.modal {
+    z-index:99999999 !important;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*.nav_wrapper li ul.orange::before {*/
