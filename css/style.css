@@ -1276,6 +1276,35 @@ button a:hover {
     .asses p {
         font-size: 16px !important;
     }
+
+    .coverage_module {
+        padding-left:30px !important;
+        padding-right:30px !important;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    .coverage_module h4 {
+        text-align:center !important;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    .second_quad {
+        border: none !important;
+    }
+
+    .third_quad {
+        border: none !important;
+    }
+
+    .fourth_quad {
+        border: none !important;
+    }
+
+    .coverages_bold {
+        border: none !important;
+    }
 }
 
 .bio_module a:hover {
@@ -1393,7 +1422,7 @@ p {
 }
 
 .coverage_module h4 {
-    text-align: left !important;
+    text-align: left;
     float:none !important;
     display:block;
 }
@@ -1422,6 +1451,51 @@ p {
     }
 }
 
+.coverages_bold p {
+    font-family: GraphieSemiBold !important;
+}
+
+.coverages_list {
+    padding-left:0;
+}
+
+.coverages_list li {
+    color: #000;
+    list-style-type: none;
+}
+
+.coverages_list li:before {
+    content: url('/img/shield.png');
+    padding-right: 10px;
+    padding-top:15px;
+    vertical-align: middle;
+}
+
+.coverage_module {
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.second_quad {
+    border-left: 2px solid #87bd30;
+}
+
+.third_quad {
+    border-top: 2px solid #87bd30;
+}
+
+.fourth_quad {
+    border-top: 2px solid #87bd30;
+    border-left: 2px solid #87bd30;
+}
+
+@media (max-width: 576px) {
+    .col-sm-12 {
+        border: none !important;
+    }
+}
 /*.nav_wrapper li ul.orange::before {*/
     /*background: #ff7800;*/
 /*}*/
