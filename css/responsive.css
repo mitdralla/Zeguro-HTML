@@ -128,7 +128,7 @@
 }
 @media (max-width:479px){
     .hero_wrapper h1 {font-size: 24px;}
-    .hero_wrapper h2 {font-size: 14px;}
+    .hero_wrapper h2 {font-size: 20px;}
     .hero_wrapper button {font-size: 12px;}
     .section h2 {font-size: 24px;}
     /*.section p {font-size: 16px;line-height: 22px;}*/
