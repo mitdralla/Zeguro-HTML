@@ -1,0 +1,162 @@
+@media (max-width: 1250px){
+    .main_aux_nav {padding: 0;}
+    .main_menu {padding: 0;}
+
+}
+@media (max-width: 1220px){
+    .container {max-width: 100% !important;}
+    .main_nav li {padding: 15px 10px;min-width: inherit;float: left;}
+    .nav_wrapper li {padding: 15px 10px; width: 150px;}
+    .nav_wrapper li:hover ul {width: 100% !important; padding: 10px 5px;}
+    .nav_wrapper li ul li a {font-size: 14px;line-height: 18px;}
+    .nav_wrapper {padding: 20px 15px;}
+    .hero_wrapper {padding: 50px 15px 0;}
+    .inner_content_wrapper {max-width: 875px;}
+    .timeline_left {max-width: 100%;width: 52%;padding: 0 35px 0 0;}
+    .timeline_right {max-width: 100%;width: 48%;}
+    .empowerment li {width: 25%;max-width: 100% !important;float: left;}
+    .section img {padding: 0;display:  block;margin:  0 auto;}
+    .bullets_left {max-width: 100%;width: 50%;}
+    .bullets_right {max-width: 100%;width: 50%;}
+    .secure_more h5 {width: auto;}
+    .section_wrapper {padding: 0 15px;}
+    .inner_content__container_wrapper {max-width: 100%;}
+    .zeguro_in ul {margin: 0 auto;}
+    .train li {width: 33.3%;}
+    .module {padding: 0 10px;}
+    .container.footer.contact ul li {letter-spacing: 0;}
+    .contact_left,.contact_right {padding: 10px 15px;}
+    .show_hide {width: 250px;padding: 15px;}
+    .show_hide span {font-size: 16px;line-height: 18px;}
+}
+@media (max-width:991px){
+    .logo {float: left;width: 18%;padding: 7px 10px 0 0;}
+    .logo img {width: 100%;}
+    .main_menu {float: left;width: 82%;}
+    .main_nav li {padding: 15px 5px;}
+    .main_menu li > a,.main_nav li a {font-size: 14px;}
+    .nav_wrapper li ul li {padding: 5px 0;}
+    .nav_wrapper li:hover ul li {line-height: 18px;}
+    .nav_wrapper li ul li a {font-size: 12px;line-height: 14px;}
+    .section_wrapper {font-size: 18px;}
+    .news_in {padding: 0 15px 10px;}
+    .bullets_left p,.bullets_right p {min-height: 115px;}
+    .footer_wrapper {margin: 0;}
+    .module {width: 33.3% !important;max-width:  100% !important;flex: inherit;-webkit-flex: inherit;-o-flex: inherit;-moz-flex: inherit;-ms-flex: inherit;}
+    .container.footer.contact ul li img {margin-top: -13px;}
+    .container.footer {padding: 30px 15px;}
+    .footer ul li a {font-size: 14px;}
+    .footer ul {margin: 0;}
+    .container.footer.contact ul li {padding-bottom: 30px;}
+    .footer ul li {padding-bottom: 5px;}
+    .cyber_in h1 {font-size: 34px;}
+    .zeguro_in ul {max-width: 767px;}
+    .zeguro_in ul li {padding: 0 10px;}
+    .zeguro_main {padding: 10px 5px 0 20px;}
+    .zeguro_in ul li span:after {width: 97%;right:  75%;}
+    .zeguro h2,.businees h2 {font-size: 30px;line-height: 32px;}
+    .help_left,.help_right {padding: 0 15px;}
+    .help {padding: 20px 0 !important;}
+    .module {padding: 0 15px;}
+
+}
+@media (max-width:767px){
+    .nav-icon {display: block;}
+    .open .main_menu {display: block;padding: 15px 0;}
+    .nav_wrapper li a{display: block;padding: 7px 0;}
+    .logo {float: none;width: auto;padding: 0;}
+    .main_menu {display: none;float: none;width: 100%;position: absolute;top: 100px;left: 0;background: #fff;transition: all ease-in-out 0.3s;-o-transition: all ease-in-out 0.3s;-ms-transition: all ease-in-out 0.3s;-webkit-transition: all ease-in-out 0.3s;-moz-transition: all ease-in-out 0.3s;z-index: 9;}
+    .nav_wrapper ul,.nav_wrapper ul li {float: none;width: 100%;display: block;padding: 0;margin: 0 auto;}
+    .nav_wrapper li:hover > ul {display: none;position: static;padding: 0 !important;border: none;}
+    .main_menu li:hover > a{font-family: GraphieLight;}
+    .login_button {margin: 0 auto;}
+    .hero_wrapper h1 {font-size: 30px;}
+    .circles {font-size: 34px;}
+    .covered h5 {font-size: 20px;}
+    .covered {min-height: 930px;}
+    .empowerment li {width: 49%;text-align:  center;padding: 10px 10px;vertical-align:  top;float: none;}
+    .section {padding: 30px 15px;}
+    .section h1 {font-size: 26px;}
+    .investment_partners .logos li {width: 33.3%;float: left;}
+    .logos li img {max-width: 100%;}
+    .bullets_left,.bullets_right {width: 100%;float: none;text-align: left;}
+    .secure_more .left {padding-right: 15px;}
+    .secure_more .right {float: left;border-left: none;border-right: 3px solid #fff;padding-left: 0;padding-right: 15px;}
+    .bullets_left p,.bullets_right p {min-height: 65px;padding-left: 53px !important;padding-top: 21px !important;margin-bottom: 5px;display:  block;width:  100%;font-size: 20px !important;}
+    .section_wrapper {padding: 0;}
+    .module {width: 50% !important;}
+    .container.footer.contact ul li a {font-size: 12px;}
+    .main_menu li span{width: 30px; height: 30px; background: #f00; position: absolute; right: 10px; top:0px; z-index: 999;}
+    .main_menu li span:after{content: '\+';position: absolute;right: 4px;top:0px;z-index: 999;font-size: 25px;line-height: 30px;color: #000;}
+    .main_menu li.active span:after{content: '\-';right: 6px;font-size: 35px;}
+    .cyber_in h1 {font-size: 30px;}
+    .zeguro_in ul li {float: none;width: 100%;max-width: 320px;margin: 0 auto;display: block;}
+    .zeguro_in ul li span:after {display: none;}
+    .assess_left,.assess_right {padding: 10px 15px;}
+    .zeguro h2,.businees h2 {font-size: 26px;line-height: 28px;}
+    .mitigate,.assess,.zeguro {padding: 20px 0 20px !important;}
+    .help_left,.help_right {padding: 10px 0px;}
+    .contact_right p,.contact_right_in ul li p,.contact_right_in ul li p a {font-size: 18px;line-height: 22px;}
+    .contact_left form ul > li {margin: 0;}
+    .contact_right p {padding: 0;}
+    .show_hide {width: 200px;padding: 15px;}
+    .show_hide span {font-size: 14px;line-height: 16px;}
+    .contact .bootstrap-select button,.contact_left form ul > li input {height: 45px;font-size: 18px;line-height: 45px;}
+    .contact .bootstrap-select.btn-group .dropdown-menu li a span.text {font-size: 18px;line-height: 25px;}
+    .contact .bootstrap-select.btn-group .dropdown-menu li {padding: 0;}
+    .contact_left form ul > li > ul > li {width: 100% !important;max-width: 100% !important;}
+    .cyber_in p, .cyber_in li p { text-align: center !important; }
+    .full_cta { padding-top:0px !important; }
+
+}
+@media (max-width:599px){
+    .hero_wrapper h1 {font-size: 24px;}
+    .hero_wrapper h2 {font-size: 18px;}
+    .covered h5 {padding: 0;}
+    .circles {display: none;}
+    .timeline_left {float: none;width: 100%;padding:  0;text-align:  left;}
+    .covered {margin:  0;min-height:  inherit;padding: 30px 0 20px !important;}
+    .timeline_right {float: none;width: 100%;}
+    .empowerment li {float: none;width: 100%;padding: 10px 0;}
+    .cyber_in h1 {font-size: 26px;}
+    .cyber_in p {font-size: 20px;}
+    .zeguro h2,.businees h2 {font-size: 24px;line-height: 26px;}
+    .hero_wrapper,.secure_more {min-height: 490px;}
+    .footer.contact br { display:none;}
+    .module {width: 50% !important;}
+
+}
+@media (max-width:479px){
+    .hero_wrapper h1 {font-size: 24px;}
+    .hero_wrapper h2 {font-size: 20px;}
+    .hero_wrapper button {font-size: 12px;}
+    .section h2 {font-size: 24px;}
+    /*.section p {font-size: 16px;line-height: 22px;}*/
+    .logos li {float: none;width: 100%;text-align: center;}
+    .logos li img {margin: 0 auto;}
+    .bullets_left p,.bullets_right p {font-size: 14px !important;}
+    .module {width: 50% !important;}
+    .container.footer.contact ul li {text-align: center;padding-bottom: 10px;}
+    .footer ul li,.footer p {text-align: center;}
+    .container.footer.contact ul li img {margin-top: 0;float: none;display: inline-block;}
+    .cyber_in h1 {font-size: 35px;}
+    .zeguro h2,.businees h2 {font-size: 20px;line-height: 22px;}
+    .get_in span {font-size: 30px;top: 65px;}
+    .contact_right p,.contact_right_in ul li p,.contact_right_in ul li p a {font-size: 16px;line-height: 20px;}
+    .san {padding: 10px 0;}
+    .san h5 {font-size: 19px;}
+    .footer.contact br { display:none;}
+
+}
+
+@media only screen
+and (min-width : 769px)
+and (max-width : 890px) {
+    .main_nav li {
+        width: 125px !important;
+    }
+
+        .covered {
+            min-height: 801px;
+        }
+}
